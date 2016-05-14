@@ -1,0 +1,98 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+/*bigin jeneral setting*/
+@charset="utf-8";
+*{padding:0;margin:0;-webkit-appearance: none;}
+html,body{margin:0 0 0 0;padding:0 0 0 0;font-family: 'Noto Sans Japanese', sans-serif;color:#575757;-webkit-appearance: none;}
+i{color:#34495e;}.yearok{line-height:2em }
+a{color: #ccc;text-decoration: none;}
+ul{list-style: none;margin: 0;padding:0;}
+ul li{list-style-type: none;}
+hr{border-style: dashed;border: 0;height: 0;border-top: 1px solid rgba(0, 0, 0, 0.1);border-bottom:1px solid rgba(255, 255, 255, 0.3);}
+textarea{resize:none;}
+
+input[type="checkbox"] {
+ -webkit-appearance:none;/* Hides the default checkbox style */ 
+ height:2em;
+ width:2em;
+ cursor:pointer;
+ position:relative;
+ -webkit-transition: .15s;
+ border-radius:2em;
+ background-color:#900;
+}
+input[type="checkbox"]:checked {background-color:steelblue;}
+input[type="checkbox"]:before, input[type="checkbox"]:checked:before {
+ position:absolute;
+ top:0;
+ left:0;
+ width:100%;
+ height:100%;
+ line-height:2em;
+ text-align:center;
+ color:#fff;
+ content: '✘';
+}
+input[type="checkbox"]:checked:before {content: '✔';}
+input[type="checkbox"]:hover:before {background:rgba(255,255,255,0.3);}
+
+/*bigin form*/
+input{margin:10px 0 0 0;font-size: 13px;}
+input[type=submit]{width: 200px;height: 30px;margin:10px 3px;border:none;-webkit-appearance:none;}
+input[type=text],input[type=email],input[type=password], select { outline: none;-webkit-appearance:none;}
+input[type=text],input[type=email],input[type=password]{width: 200px;height: 30px;padding: 0 3px;border:none;-webkit-appearance:none;}
+input[type=submit]{height: 30px;padding: 0 3px;cursor: pointer;color: #333;background: #f5f5f5;border:none;-webkit-appearance:none;}
+
+/*end form*/
+/*end jeneral setting*/
+
+#upper_content{margin-top:80px;width:100%;height:100%;line-height:1.8;}
+/*bigin H E A D E R*/
+header{width:100%;height:100%;height:60px;background:white;top:0;margin-top:0px;padding:0px;position:fixed;z-index:999999999999999999;}
+.logo p{text-align:center;padding:5px;margin:0;}
+.tophead{width:100%;height:30px;margin-top:0px;}
+/*end H E A D E R*/
+
+/*bigin box*/
+.box {/*いらないんじゃねw*/background-color: rgba(20, 20, 20, 0.5);width:90%;margin:0 auto;padding:0px;}
+.fbox{position:relative;width:90%;margin-left:5%;margin-right:5%;height:100%;background: rgba(255,255,255,0.5);}
+#friends_all{width:100%;margin-top:20px;margin-bottom:20px;clear:both;}
+/*bigin popup_window*/
+.popup_window{
+  position:relative;width:100%;min-width: 100%;height:100%;min-height:100%;
+  text-align: center;padding:0px 0 20px 0;margin:0px;display:none;background-color: rgba(255, 255, 255, 0.9);}
+#login{margin: 0 auto 10px;padding: 0 0 20px 0;width:90%;margin:0 5%;text-align:center;}
+.modal_close{ 
+  position: absolute;
+  top: 25px;
+  right:20px;
+  display: block; 
+  width: 20px;
+  height: 20px; 
+  z-index:2;
+  background-repeat: no-repeat;
+  background-image:url("../../img/batu.gif");
+}
+#lean_overlay {
+  z-index: 1000;
+  top: 0px;
+  left: 0px;
+  height:100%;
+  width:100%;
+  background: #005;
+  display: none;
+}
+
+/*delete_content*/
+.delete_content{
+  width:100%;
+  height:100%;
+  margin-top:80px;
+}
+.delete_alert{
+  text-align: center;
+  width:90%;
+  margin:0 5%;
+}
+/*delete_content*/
+
+

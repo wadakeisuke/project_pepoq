@@ -1,0 +1,226 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+/*jeneral setting*/
+@charset="utf-8";
+*{
+  padding:0;
+  margin:0;
+  -webkit-appearance: none;
+}
+html,body{
+  margin:0 0 0 0;
+  padding:0 0 0 0;
+  font-family: 'Noto Sans Japanese', sans-serif;
+  color:#575757;]
+  -webkit-appearance: none;
+}
+i{
+  color:#34495e;
+}
+a{
+  color: #ccc;
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul li{
+  list-style-type: none;
+}
+hr{
+  border-style: dashed;
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+textarea{
+  resize:none;
+}
+select{
+   -webkit-appearance: button;
+   appearance: button;
+   width:100%;
+   height:30px;
+   border:none;
+   background:rgba(255,255,255,0.8);
+}
+textarea{
+  border:none;
+  height:70px;
+  margin-left:10%;
+  margin-right:10%;
+  width:80%;
+  -webkit-appearance:none; 
+}
+.clear{clear:both;}
+/*jeneral setting*/
+
+/*bigin header*/
+header{
+  width:100%;
+  height:100%;
+  height:60px;
+  background:white;
+  top:0;
+  margin-top:0px;
+  padding:0px;
+  position:fixed;
+  z-index:999999999999999999;
+}
+.logo p{
+  text-align:center;
+  padding:5px;
+  margin:0;
+}
+/*end header*/
+
+/*start lower content*/
+/*freind*/
+.f_float{
+  float:left;
+}
+#upper_content{
+  margin-top:60px;
+  width:100%;
+  line-height:1.8;
+}
+.lower_content{
+  width:100%;
+  position:absolute;
+  top:120px;
+}
+#friends_all{
+  width:100%;
+  margin-top:20px;
+  margin-bottom:20px;
+  clear:both;
+}
+/*fbox*/
+.fbox{
+  position:relative;
+  width:90%;
+  margin-left:5%;
+  margin-right:5%;
+  height:100%;
+  background: rgba(255,255,255,0.5);
+  margin-bottom:50px;
+}
+#no_friends{text-align:center;}
+/*begin 名前が多いと・・・になる*/
+.friends_name{
+  width:100%;
+  height:50px;
+}
+.friends_name p{ 
+  text-align:center;
+  font-size: 18px;
+  line-height:50px;
+  text-overflow: ellipsis;   
+  text-overflow: clip; 
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow: ellipsis;    
+  -webkit-text-overflow: ellipsis; 
+  -o-text-overflow: ellipsis; 
+  margin:0;
+}
+.fr_tab_name {
+   width:60%;
+   height:30px;
+   margin-right:20%;
+   margin-left:20%;
+   padding:0 3px;
+   cursor:pointer;
+   background:rgba(255,255,255,0.5);
+   border:none;
+   -webkit-appearance: none;
+   color:#34495e;
+}
+/*end 名前が多いと・・・になる*/
+
+.f_info{width:100%;}
+/*bigin fbox images*/
+.friends-image{
+  padding-top:20px;
+  text-align:center;
+}
+.friends-image img{
+  width:120px;
+  height:120px;
+  -moz-border-radius: 5px;    /* Firefox */
+  -webkit-border-radius: 5px; /* Safari,Chrome */
+  border-radius: 5px;    
+  border:solid 3px white;
+}
+/*end fbox images*/
+
+/*bigin search form*/
+.head_search{
+  position:absolute;
+  top:60px;
+  height:;
+  width:100%;
+}
+.top_search_boxs{
+  padding-top:15px;
+  padding-bottom:15px;
+  background:#34495e;
+  position:relative;
+  /*border-radius:3px*/
+}
+.top_search_boxs input[type="text"]{
+  font-size:14px;
+  width:90%;
+  height:30px;
+  letter-spacing:1px;
+  margin:0 5% 0 5%;
+  border:none;
+  box-sizing:border-box;
+  border-radius:4px;
+  box-shadow:0 0 4px 0 #263238;
+}
+.top_search_boxs button[type="submit"]{
+  color:#757575;
+  font-size:16px;
+  width:40px;
+  height:30px;
+  border:none;
+  border-radius:0 4px 4px 0;
+  background:#e0e0e0;
+  position:absolute;
+  top:15px;
+  right:5%;
+}
+.top_search_boxs .off-left{
+  position:absolute;
+  left:-9999em;
+}
+
+/*アカウント削除*/
+#popup_delete_account{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding:70px 10px;
+  display:none;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.edit_format p i{font-size:40px;padding-top:0px;}
+.edit_format h2{font-size:22px;color:black;}
+.edit_format p{font-size:18px;}
+.edit_format input[type=text],textarea, select { outline: none;}
+
+/*#lean_overlay */
+#lean_overlay {
+position: fixed;
+z-index: 1000;
+top: 0px;
+left: 0px;
+height:100%;
+width:100%;
+background: #005;
+display: none;
+}
+

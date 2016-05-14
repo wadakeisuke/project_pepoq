@@ -1,0 +1,182 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+body,td,th {font-family: 'Noto Sans Japanese','sans selif'}
+*{padding:0;margin:0;list-style-type:none;text-decoration:none;}
+/*======================================Begin header================================================*/
+#header_all{
+  position:fixed;
+  top:0;
+  width: 100%;height:50px;
+  z-index:300;
+      background: #141414;
+    background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAxCAIAAACUDVRzAAAAA3NCSVQICAjb4U/gAAAALElEQVQImWMwMrJi+v//PxMDw3+m//8ZoPR/qBgDEhuXGLoeYswhXg8R5gAAdVpfoJ3dB5oAAAAASUVORK5CYII=) 100% 100%; 
+    background: -moz-linear-gradient(top, #32323a 0%, #141414 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #32323a), color-stop(100%, #141414));
+    background: -webkit-linear-gradient(top, #32323a 0%, #141414 100%);
+    background: -o-linear-gradient(top, #32323a 0%, #141414 100%);
+    background: -ms-linear-gradient(top, #32323a 0%, #141414 100%);
+    background: linear-gradient(to bottom, #32323a 0%, #141414 100%);
+}
+#header{
+  width:100%;
+  max-width:1500px;
+  min-width: 1200px;
+  height:50px;
+  padding:0 0;
+  margin:0 auto;
+}
+#header img{
+  margin:0 0 0 0;
+}
+#logo{
+  float:left;
+  font-size:20px;
+}
+#logo img{
+  width:120px;
+  height:50px;
+  padding:0;
+}
+#serch_form{
+  float:left;
+  margin-left:50px;
+  height:50px;
+
+}
+#serch_form input{
+  padding:0px 0px 0px 10px;
+  font-size:16px;line-height:20px;
+  color:gray;
+  background-color:white;
+  width:300px;
+  height: 30px;
+  outline: 0;
+  margin:10px 10px 10px 10px;
+  border-width: 1px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px; 
+}
+#serch_form input:focus{
+  color:black;
+  border-color: steelblue;
+}
+#menu{
+  background:green;
+  float: left;
+  height: 50px;
+
+}
+
+/* 
+    Document   : blue.css
+    Created on : Jun 11, 2013, 11:57:35 AM
+    Author     : Marc Nuri <marc@marcnuri.com>
+    Description:
+       Stylesheet for mnmenu examples
+*/
+
+ul.bluemenu {
+   
+    margin:0;
+    padding:0;
+    list-style:none;
+    display:block;
+    width:500px;
+    height: 50px;
+    background: #141414;
+    background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAxCAIAAACUDVRzAAAAA3NCSVQICAjb4U/gAAAALElEQVQImWMwMrJi+v//PxMDw3+m//8ZoPR/qBgDEhuXGLoeYswhXg8R5gAAdVpfoJ3dB5oAAAAASUVORK5CYII=) 100% 100%; 
+    background: -moz-linear-gradient(top, #32323a 0%, #141414 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #32323a), color-stop(100%, #141414));
+    background: -webkit-linear-gradient(top, #32323a 0%, #141414 100%);
+    background: -o-linear-gradient(top, #32323a 0%, #141414 100%);
+    background: -ms-linear-gradient(top, #32323a 0%, #141414 100%);
+    background: linear-gradient(to bottom, #32323a 0%, #141414 100%);
+    border-bottom: 1px hidden steelblue;
+    color: #ffffff;
+}
+ul.bluemenu li.level-0 {
+    position:relative;
+    display: -moz-inline-stack;
+    display: inline-block;
+    *display: inline;
+    vertical-align: top;
+    zoom: 1;
+    min-height: 49px;
+    line-height: 49px;
+    height: 49px;
+    _height: 49px;
+    font-size: 14px;
+    padding: 0 20px;
+}
+ul.bluemenu li.level-0.first {
+    border-radius: 5px 0px 0 0;
+    -moz-border-radius: 5px 0px 0 0;
+    -webkit-border-radius: 5px 0px 0 0;
+}
+ul.bluemenu li.level-0.hover {
+    box-shadow: inset 0 0 3px #000000;
+    -moz-box-shadow: inset 0 0 3px #000000;
+    -webkit-box-shadow: inset 0 0 3px #000000;
+    background: #070707;
+    background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAxCAIAAACUDVRzAAAAA3NCSVQICAjb4U/gAAAALklEQVQImWNQU9Nh+v//PxMDw3+m//8ZkNj/mRgYIHxy5f//Z0BSi18e2TwS5QG4MGB54HL+mAAAAABJRU5ErkJggg==) 100% 100%; 
+    background: -moz-linear-gradient(top, #26262c 0%, #070707 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #26262c), color-stop(100%, #070707));
+    background: -webkit-linear-gradient(top, #26262c 0%, #070707 100%);
+    background: -o-linear-gradient(top, #26262c 0%, #070707 100%);
+    background: -ms-linear-gradient(top, #26262c 0%, #070707 100%);
+    background: linear-gradient(to bottom, #26262c 0%, #070707 100%);
+}
+ul.bluemenu li.level-0 ul {
+    position:absolute;
+    display: none;
+    margin:0;
+    padding:0;
+    background: steelblue;
+    width:150px;
+}
+ul.bluemenu li.level-0 li {
+    position:relative;
+    filter: none;
+    font-size: 14px;
+    display: block;
+    line-height: 120%;
+    padding: 10px;
+    border-bottom: 1px dotted steelblue;
+}
+ul.bluemenu li.level-0 li.last {
+    border-bottom:none;
+}
+ul.bluemenu li.level-0 li.hover{
+    background: #0c7fb0;
+}
+ul.bluemenu li.level-0 span.arrow{
+    display:none;
+}
+ul.bluemenu li.level-0 span.arrow.hover{
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid steelblue;
+    margin-left: -10px;
+}
+ul.bluemenu li.level-0 li span.arrow,
+ul.bluemenu li.level-0 li span.arrow.hover {
+    position:absolute;
+    display:block;
+    font-size:110%;
+    top:10px;
+    right:7px;
+    left:auto;
+    bottom:auto;
+    margin:0;
+    width:auto;
+    border:none;
+}
+
+

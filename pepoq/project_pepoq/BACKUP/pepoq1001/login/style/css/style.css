@@ -1,0 +1,59 @@
+body{
+  margin: 0;
+  padding: 0;
+  width:100%;
+  max-width: 100%;
+  background: pink;
+  font-family: 'メイリオ';
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+/*bigin header*/
+header {
+  position:absolute;
+  top:0;
+  background:white;
+  color:steelblue;
+  width: 100%;
+  height: 50px;
+  margin: 0;
+  padding:0 0 0 0;
+  z-index: 101;
+  text-align:left;
+}
+header img{
+position:absolute;
+top:0;
+width:30px;
+height:30px;
+margin-left:10px;
+margin-top:10px;
+}
+header p{
+  padding-left:50px;
+}
+/*end header*/
+/*bigin general*/
+#pageall{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#content{
+  padding:10px;
+  background:white;
+}
+#login{
+  width:90%;
+  height:100%;
+  margin-left:5%;
+  margin-right:5%;
+  margin-top:30px;
+  padding-top:30px;
+  padding-bottom:30px;
+}
+#form_content{
+  background: #ecf0f1;
+}

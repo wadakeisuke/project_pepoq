@@ -1,0 +1,30 @@
+
+.user_infomation{
+	width:100%;
+	height:150px;
+	background:url(../img/background01.gif);
+}
+.name{}
+.basicdata{
+	width:100%;
+	height:150px;
+	background:blue;
+	clear:both;
+}
+.basicdata_item{
+}
+.comment{
+	width:100%;
+	height:100%;
+	background:white;
+}
+.profile_menu{
+	width:100%;
+	height:50px;
+}
+.profile_menu li{
+	width:25%;
+	height:50px;
+	text-align:center;
+	float:left;
+}

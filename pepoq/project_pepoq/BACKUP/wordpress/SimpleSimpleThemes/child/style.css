@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/*
+	Theme Name: Simple Simple Child Theme
+	Description: Child theme of Simple x Simple by <a href="http://webdesignrecipes.com/">Web Design Recipes</a>.
+	Author: Nori Takahashi
+	Author URI: http://webdesignrecipes.com/
+	Version: 1.0
+	Template: simplesimple
+*/
+
+@import url('../simplesimple/style.css');
+
+a {
+	color: #18b4c1;
+	border-color: #18b4c1;
+}

@@ -1,0 +1,13 @@
+.edit_all{
+  width:100%;
+  height:100%;
+  position:relative;
+  background:gray;
+  padding-bottom:500px;
+}
+.edit_box{
+  margin:50px 5%;
+  width:90%;
+  background:white;
+  clear:both;
+}

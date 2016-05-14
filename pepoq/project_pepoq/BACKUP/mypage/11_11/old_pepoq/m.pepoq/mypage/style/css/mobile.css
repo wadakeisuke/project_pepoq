@@ -1,0 +1,124 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+/*bigin jeneral setting*/
+@charset="utf-8";
+*{padding:0;margin:0;-webkit-appearance: none;}
+html,body{margin:0 0 0 0;padding:0 0 0 0;font-family: 'Noto Sans Japanese', sans-serif;color:#575757;-webkit-appearance: none;}
+i{color:#34495e;}
+a{color: #ccc;text-decoration: none;}
+ul{list-style: none;margin: 0;padding: 0;}
+ul li{list-style-type: none;}
+hr{border-style: dashed;border: 0;height: 0;border-top: 1px solid rgba(0, 0, 0, 0.1);border-bottom: 1px solid rgba(255, 255, 255, 0.3);}
+select{-webkit-appearance: button;appearance: button;width:100%;height:30px;border:none;background:rgba(255,255,255,0.8);}
+textarea{border:none;height:70px;margin-left:10%;margin-right:10%;width:80%;-webkit-appearance:none; resize:none;}
+/*end jeneral setting*/
+i.box_icon{font-size:25px;}
+.clear{clear:both;}
+#upper_content{margin-top:60px;width:100%;line-height:1.8;}
+/*edit関連*/
+.link_edit{width: 96%;margin:2%;height:40px;background-color: rgba(255,255,255,0.8);text-align:center;}
+.link_edit span{line-height:40px;color:#34495e;}
+.link_edit i{font-size:20px;line-height:40px;}
+.thumbnail_link_edit{width: 100%;height:40px;background-color: rgba(255,255,255,0.8);}
+.thumbnail_link_edit span{line-height:40px;color:#34495e;}
+/*edit関連*/
+/*box関連*/
+.thumbnail_box {background: rgba(0, 0, 0, 0.3);width:100%;height:100%;margin-bottom:20px;}
+.box {
+  background-color: rgba(255,255,255,0.7);
+  position:relative;
+  width:90%;
+  margin-left:5%;
+  margin-right:5%;
+  height:100%;
+  margin-bottom:20px;
+}
+/*box関連*/
+
+/*T H U M B N A I L*/
+.data_title{font-size:20px;padding-left:15px;}
+.data{margin-left: 8px;}
+.social_icons{background:#005;opacity:0.9;}
+.social_icons ul li{float:left;width:25%;text-align:center;background:white;}
+.social_icons i{height:60px;font-size:30px;line-height:60px;}
+#thumbnail{margin-bottom:0px;width:100%;margin-left:0px;margin-right:0px;text-align:center;padding-top:10px;background:#005;background: rgba(0, 0, 0, 0.11);}
+#thumbnail img{-moz-border-radius: 5px;    /* Firefox */-webkit-border-radius: 5px; /* Safari,Chrome */border-radius: 5px;    border:solid 3px white;width: 120px;height: 120px;}
+.user{width:100%;height:100%;margin-top:0px;}
+.user_name{text-align:center;margin-top:0px;font-size:20px;line-height:40px;height:40px;width:100%;background-color:rgba(255,255,255,0.8);}
+/*T H U M B N A I L*/
+
+/*C O M M E N T*/
+#comment p{padding: 25px;}
+/*C O M M E N T*/
+
+/*B A S I C D A T E*/
+#basic_data{padding-top: 10px;}
+#basic_data ul{padding-bottom: 10px;padding-left:25px;}
+#basic_data ul li{ 
+  text-overflow: ellipsis;   
+  text-overflow: clip; 
+  overflow: hidden; 
+  text-overflow: ellipsis;    
+  -webkit-text-overflow: ellipsis; 
+  -o-text-ometa-nav-preverflow: ellipsis; 
+  margin:0;
+  padding:0;
+  max-width:;
+}
+/*B A S I C D A T E*/
+
+/*L O V E S and L I K E S*/
+#love_and_likes{padding-top:10px;}
+#love_and_likes ul{padding:25px;padding-left:25px;}
+/*L O V E S and L I K E S*/
+
+/*L I N K S*/
+#links{padding-top:10px;}
+/*L I N K S*/
+
+
+/*start lower content*/
+/*freind 関連*/
+.f_float{float:left;}
+#lower_content{width:100%;background-color:rgba(255,255,255,0.8);}
+#friends_all{width:100%;margin-top:20px;margin-bottom:20px;clear:both;}
+/*friend　関連*/
+
+/*fbox*/
+.fbox{
+  position:relative;
+  width:90%;
+  margin-left:5%;
+  margin-right:5%;
+  height:100%;
+  background: rgba(255,255,255,0.5);
+  margin-bottom:50px;
+}
+/*begin 名前が多いと・・・になる*/
+.friends_name{width:100%;height:50px;}
+.friends_name p{ text-align:center;font-size: 18px;line-height:50px;
+  text-overflow: ellipsis;   
+  text-overflow: clip; 
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow: ellipsis;    
+  -webkit-text-overflow: ellipsis; 
+  -o-text-overflow: ellipsis; 
+}
+/*end 名前が多いと・・・になる*/
+.f_info{width:100%;}
+/*I M A G E*/
+.friends-image{padding-top:20px;text-align:center;}
+.friends-image img{
+  width:120px;height:120px;
+  -moz-border-radius: 5px;    /* Firefox */
+  -webkit-border-radius: 5px; /* Safari,Chrome */
+  border-radius: 5px;border:solid 3px white;}
+/*I M A G E*/
+
+/*F R I E D MENU */
+.friends-category {width:100%;height:100%;}
+.friends-category ul li{width:33%;height:30px;line-height:30px;color:#34495e;text-align:center;float:left;background-color:rgba(255,255,255,0.8);}
+.friends-category .last_li{width:34%;}
+.friends-category ul li a{color:#34495e;}
+/*F R I E D MENU */
+.end{width:100%;height:50px;}

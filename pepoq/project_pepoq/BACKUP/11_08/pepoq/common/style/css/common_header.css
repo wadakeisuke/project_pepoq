@@ -1,0 +1,102 @@
+/*======================================================
+==========0.header=======================start==========
+=======================================================*/
+#header_all{
+  position:fixed;
+  top:0;
+  width:100%;
+  z-index:1000;
+}
+#upper_header{
+  background-image: linear-gradient(-90deg, #E6418C, #FFFFFF);
+  height: 40px;
+  width:100%;
+  /* position: static; */
+}
+#logo{
+  color: white;
+  /* width:25%; */
+  height:35px;
+  float:left;
+  position: initial;
+}
+#question{
+  position:absolute;
+  top:5px;
+}
+#upper_header a{
+  color: #FFF;
+}
+/*
+#question a i{
+  color:white;
+}*/
+.upper_menu{
+  width: 120px;
+  height:35px;
+  right: 0;
+  position:absolute;
+}
+.upper_menu_li{
+  float:left;
+  width:40px;
+  height:35px;
+  /* text-align:right; */
+ 
+}
+#friend{
+    margin-right:0px;
+    margin-top:-40px;
+}
+#circle{
+    top:33px;
+    width: 18px;
+    height: 18px;
+    -webkit-border-radius: 50%;/* 50%でもOK */
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-color: red;/* 円の色 */
+    position: absolute;
+    color:white;
+    background-color:red;
+    font-size: 90%;
+    z-index:9999;
+}
+ul.header_menu {
+  width: 100%;
+  clear:both;
+}
+.pepoq1,.pepoq2,.pepoq3,.pepoq4,.pepoq5,.pepoq6 {
+  padding-top: 10px;
+  text-align: center;
+  float: left;
+  width: 16.6666%;
+  height: 35px;
+  color:#fff;
+  /*font-size:16px;*/
+  text-decoration:none;
+  display:block;
+  background:#d61e44;
+  box-shadow: inset 0px 3px 1px rgba(0,0,0,0.1);
+  opacity:0.8;
+ }
+ ul.header_menu li p{
+  font-size:10px;
+  color:white;
+}
+.icon{
+  font-size: 20px;
+  line-height:30px;
+  color:#89003F;
+}
+.upper_icon{
+
+    font-size: 20px;
+    line-height: 50px;
+    color: white;
+    /* padding-left: 20px; */
+}
+}
+/*======================================================
+==========0.header=======================end============
+=======================================================*/

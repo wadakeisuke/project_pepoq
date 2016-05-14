@@ -1,0 +1,42 @@
+<div class="alignright"><img src="[image_path]" alt="" title="" width="220" height="136" /></div>
+<p class="serif large">人と環境に優しいインテリア</p>
+
+グリーンコーポレーションでは、お客様の笑顔と同じくらい環境を大切にしています。そんな私たちが製造する家具は、材料、製造工程においても環境に優しい家具たちです。
+
+その家具と、それを取り巻く空間、環境を整備することが私たちのミッションとして考え、「家具の製造販売」「インテリアコーディネート」「レンタル観葉植物」の3つを事業の柱にしています。
+
+<div class="box-full">
+<div class="hgroup">
+<h4 class="outline-1">家具・照明器具の製造、販売</h4>
+<h5>MANUFACTURE AND SALE OF FURNITURE</h5>
+</div>
+<img src="[image_path]" alt="家具・照明器具" title="家具・照明器具" width="175" height="117" />
+
+人と環境に優しい家具作りに、毎日励んでいます。緑と自然を愛する私たちは、環境を大切にしています。
+
+<a href="[home_url]/business-outline/manufacture-and-sale-of-furniture/">家具・照明器具の製造、販売</a>
+</div>
+
+<div class="box-full">
+<div class="hgroup">
+<h4 class="outline-2">インテリア・コーディネート</h4>
+<h5> INTERIOR COORDINATE</h5>
+</div>
+<img src="[image_path]" alt="" title="インテリア・コーディネート" width="175" height="117" />
+
+インテリア・コーディネーターの資格を待つスタッフが、あなたのお部屋をコーディネートいたします。
+
+<a href="[home_url]/business-outline/interior-coordinate/">インテリア・コーディネート</a>
+</div>
+
+<div class="box-full">
+<div class="hgroup">
+<h4 class="outline-3">レンタル観葉植物</h4>
+<h5>rental green</h5>
+</div>
+<img src="[image_path]" alt="" title="レンタル観葉植物" width="175" height="117" />
+
+オフィスやお店に観葉植物を置いてみませんか？観葉植物のレンタルを行っています。
+
+<a href="[home_url]/business-outline/rental-green/">レンタル観葉植物</a>
+</div>

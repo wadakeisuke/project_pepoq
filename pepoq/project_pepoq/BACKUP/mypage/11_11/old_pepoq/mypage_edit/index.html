@@ -1,0 +1,181 @@
+<!doctype>
+<html>
+<head>
+<meta charset="utf-8">
+<title>drawer</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<link href="http://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+<!-- drawer css -->
+<link rel="stylesheet" href="css/drawer.min.css">
+<link rel="stylesheet" href="css/style.css">
+<!-- jquery & iscroll & dropdown -->
+<script src="js/jquery.min.js"></script>
+<script src="js/iscroll-min.js"></script>
+<script src="js/dropdown.min.js"></script>
+
+<!-- drawer js -->
+<script src="js/jquery.drawer.min.js"></script>
+<script>
+$(document).ready(function() {
+  $(".drawer").drawer();
+});
+</script>
+</head>
+
+<body>
+<div class="pageall">
+<!--Bigin header-->
+<div class="header_content">
+  <div class="header_add_user float_left">
+    <div class="header_icon_text"><i class="fa fa-user-plus header_icon"></i></div>
+  </div>
+
+  <div class="header_logo float_left">
+
+  </div>
+
+  <div class="header_search float_left">
+    <div class="header_icon_text"><i class="fa fa-search header_icon"></i></div>
+  </div>
+  <div class="header_side_menu float_left">
+    <div class="drawer drawer-right">
+      <header role="banner">
+      <div class="drawer-header">
+        <button type="button" class="drawer-toggle drawer-hamburger">
+          <span class="sr-only">toggle navigation</span>
+          <span class="drawer-hamburger-icon"></span>
+        </button>
+      </div>
+
+      <div class="drawer-main drawer-default">
+        <nav class="drawer-nav" role="navigation">
+          <div class="drawer-brand"><a href="./">drawer</a></div>
+
+          <ul class="drawer-menu">
+            <li class="drawer-menu-item"><a href="./base">base</a></li>
+          </ul>
+
+          <div class="drawer-footer"><span></span></div>
+        </nav>
+      </div>
+      </header>
+      <div class="drawer-overlay">
+      <!-- content -->
+      </div>
+    </div>
+  </div>
+</div>
+<!--end header-->
+
+<!--bigin category-->
+<div class="category-boxs">
+<div class="category-item float_left"><i class="fa fa-meh-o"></i></div>
+<div class="category-item float_left"><i class="fa fa-question"></i></div>
+</div>
+<!--end category-->
+
+<div class="content">
+
+<div class="edit_all">
+
+  <div class="edit_box">
+    <div>
+      Image
+    </div>
+    <form>
+    <input type="file">
+    <input type="file">
+    <div>
+        <input type="submit">
+      </div>
+    </form>
+  </div>
+  <div class="edit_box">
+    <div>
+      Name
+    </div>
+    <input type="text">
+    <div>
+        <input type="submit">
+      </div>
+  </div>
+  <div class="edit_box">
+    <div>
+      Comment
+    </div>
+    <textarea></textarea>
+    <div>
+        <input type="submit">
+      </div>
+  </div>
+  <div class="edit_box">
+    <div>
+      Info
+    </div>
+    <form action="cgi-bin/formmail.cgi" method="post">
+      <li>Name</li>
+      <input type="text" name="name" id="namae">
+      <li>BirthDay</li>
+      <input type="text" name="name" id="namae">
+      <li>From</li>
+      <input type="text" name="name" id="namae">
+      <li>Educational Background</li>
+      <input type="text" name="name" id="namae">
+      <li>Works</li>
+      <input type="text" name="name" id="namae">
+      <div>
+        <input type="submit">
+      </div>
+    </form>
+  </div>
+</div>
+<!--bigin searchform-->
+<div class="search-boxs">
+  <input type="text" name="" placeholder="***に質問してみる">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</div>
+<!--end searchform-->
+
+<!--Bigin tabmenu-->
+<div class="tab_menu">
+  <ul>
+    <li class="tab_menu_li"><i class="fa fa-home tab_menu_icon"></i></li>
+    <li class="tab_menu_li"><i class="fa fa-users tab_menu_icon"></i></li>
+    <li class="tab_menu_li"><i class="fa fa-bell-o tab_menu_icon"></i></li>
+    <li class="tab_menu_li"><i class="fa fa-question-circle tab_menu_icon"></i></li>
+  </ul>
+</div>
+<!--Bigin tabumenu-->
+
+
+
+
+</div>
+<script>
+// Option
+$(".drawer").drawer({
+  apiToggleClass: "element"
+});
+
+// Open
+$('.element').on(function)() {
+  $('.drawer').drawer('open');
+});
+
+// close
+$('.element').on(function)() {
+  $('.drawer').drawer('close');
+});
+
+// toggle
+$('.element').on(function)() {
+  $('.drawer').drawer('toggle');
+});
+
+// destroy
+$('.element').on(function)() {
+  $('.drawer').drawer('destroy');
+});
+</script>
+</body>
+</html>

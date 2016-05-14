@@ -1,0 +1,273 @@
+
+/*C O M M O N*/
+*{
+font-family : YuGothic, '游ゴシック', sans-serif;
+  padding:0;
+  margin:0;
+}
+p{color:#575757;}
+.hello_p{font-size:26px;}
+.jap{padding-top:20px;font-size:15px;color:steelblue}
+a{text-decoration: none;color:steelblue;}
+i{color:white;}
+.fa-tag{font-size:20px;}
+.text_fix{width:80%;padding-left:10%;padding-right:10%;}
+.f_left{float:left;}
+.sns_font{color:white;font-size:30px;line-height:50px}
+/*C O M M O N*/
+#pageall{
+  background:white;
+  width:100%;
+  height:100%;
+  position:relative;
+}
+/*start H E A D E R*/
+header{
+  width:100%;
+  height:100%;
+  height:60px;
+  top:0;
+  margin-top:0px;
+  padding:0px;
+  position:fixed;
+  z-index:999999999999999999;
+}
+.tophead p{
+  font-size:16px;
+  line-height:60px;
+  color:steelblue;
+}
+.tophead{
+  width:100%;
+  height:30px;
+  margin-top:0px;
+}
+.header_logo{
+  background-color:rgba(255,255,255,0.9);
+  width:50%;
+  height:60px;
+  text-align:left;
+}
+.header_logo p{
+  margin-left:30px;
+}
+.header_login{
+  background-color:rgba(255,255,255,0.9);
+  width:50%;
+  text-align:right;
+  margin-left:0;
+}
+.header_login p{
+  margin-right:30px;
+}
+/*end H E A D E R*/
+
+/*start C O N T N T*/
+
+/*bigin R E C O M E N D*/
+.top_rec{
+  width:100%;
+  height:450px;
+  padding-top:50px;
+  /*background:url(style/img/head.gif);*/
+}
+.top_rec_box{
+  padding-top:50px;
+  width:80%;
+  height:300px;
+  margin-left:10%;
+  margin-right:10%;
+  text-align:center;
+  background:white;
+  background-color:rgba(255,255,255,0.8);
+
+
+}
+.top_rec_text{
+  width:100%;
+  height:250px;
+}
+
+.top_join{
+  width:100%;
+  height:50px;
+  background:#399adc;
+}
+.top_join p{
+  color:white;
+  font-size:16px;
+  line-height:50px;
+}
+
+.top_join a{
+  color:white;
+  font-size:16px;
+  line-height:50px;
+}
+.last_join{
+  width:80%;
+  margin-left:10%;
+  margin-right:10%;
+  height:50px;
+  background:#399adc;
+}
+.last_join p{
+  color:white;
+  font-size:16px;
+  line-height:50px;
+}
+.last_join a{
+  color:white;
+  font-size:16px;
+  line-height:50px;
+}
+.fb_twt{
+  margin-top:20px;
+  height:50px;
+  width:80%;
+  margin-left:10%;
+  margin-right:10%;
+}
+.fb{
+  width:50%;
+  height:50px;
+  background:steelblue;
+  text-align:center;
+}
+.twt{
+  width:50%;
+  height:50px;
+  background:skyblue;
+  text-align:center;
+}
+/*end R E C O M E N D*/
+
+/*bigin B O X S*/
+.content{
+  position:absolute;
+  top:60px;
+  background:white;
+  width:100%;
+  height:100%;
+}
+.top_box{
+  background:white;
+  width:100%;
+  height:350px;
+}
+.top_img{
+  background:none;
+  height:200px;
+  width:94%;
+  margin-left:3%;
+  margin-right:3%;
+  z-index: 1;
+  position: relative;
+}
+.top_img img{
+  height:200px;
+  width:100%;
+}
+.top_item{
+  background:#ecf0f1;
+  width:90%;
+  margin-left:5%;
+  margin-right:5%;
+  height:150px;
+  padding-top:50px;
+  margin-top:-70px;
+  text-align:center;
+  z-index:2;
+  position: absolute;
+}
+
+/*end B O X S*/
+
+/*bigin I N T R O*/
+.intro{
+  background:#34495e;
+  width:100%;
+  height:150px;
+  text-align:center;
+  padding-top:50px;
+  margin-bottom: 20px;
+}
+.intro p {
+  color:white;
+}
+/*end I N T R O*/
+
+/*bigin O U T R O*/
+.outro{
+  background:#34495e;
+  width:100%;
+  height:150px;
+  text-align:center;
+  padding-top:50px;
+}
+.outro p {
+  color:white;
+}
+/*end O U T R O*/
+
+/*bigin last sign up rec*/
+.last_signup_rec{
+  padding-top:50px;
+  /*background:url(style/img/last.jpg);*/
+  width:100%;
+  height:200px;
+  text-align:center;
+  padding-bottom:30px;
+}
+.last_signup_rec_p{
+  padding-top:20px;
+  padding-bottom:20px;
+  color:;
+  background:rgba(255,255,255,0.8);
+}
+.clear{
+  position:absolute;
+  width:100%;
+  height:0px;
+  padding-top:50px;
+  padding-bottom:250px;
+  background:;
+  clear:both;
+}
+/*end C O N T N T*/
+
+/*bigin F O O T E R*/
+#footer {
+  position:absolute;
+  bottom:0;
+  width: 100%;
+  height:250px;
+  background:#2c3e50;
+  padding-top:30px;
+  padding-bottom:30px;
+}
+#footer ul{
+  width:100%;
+  height:250px;
+  text-align: center;
+}
+
+#footer li{
+  color:white;
+  font-size:14px;
+  line-height:34px;
+}
+.copy_r{
+  position:absolute;
+  bottom:0;
+  height:20px;
+  width:100%;
+  text-align: center;
+  background:#2A2F35;
+}
+.copy_r small{
+  color:white;
+}
+/*end F O O T E R*/
+
+

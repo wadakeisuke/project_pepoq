@@ -1,0 +1,288 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>pepoQ</title>
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script type="text/javascript" src="../../style/js/jquery-1.7.2.min.js"></script>
+<script src="../../style/js/jquery.hoverintent.r7.js"></script>
+<script src="../../style/js/jquery.mnmenu.js"></script>
+<script>
+$(document).ready(function() {
+  $('#idmenu').mnmenu();
+})
+</script>
+<style>
+li{
+  font-size:14px;
+  color:#545454;
+}
+p{
+  font-size:14px;
+  color:#545454;
+}
+#pageall{
+  position:relative;
+  height:100%;
+}
+.box_fl{
+  float:left;
+}
+.content{
+  position:absolute;
+  top:50px;
+  width:100%;height:100%;
+  padding:0;margin:0;
+  background:gray;
+}
+.lower_content{
+  width:60%;height:100%;
+  margin-left:20%;margin-right:20%;
+  background:green;
+}
+.box_item{
+width:500px;
+height:200px;
+background:white;
+}
+.box_item p{
+  margin-left:15px;
+
+}
+.text-con{padding:10px;}
+.box_img{
+  height:200px;
+  width:300px;
+  background:white;
+}
+.box_img img{
+  height:200px;
+  width:200px;
+  margin:0px 50px 0px 50px;
+}
+.toptitle{
+  width:100%;height:150px;
+  color:white;
+  text-align:center;
+  background-color:rgba(255,0,0,0.3);
+  background-image:url("img/top/top-back003.png");
+  box-shadow:0px 0px 10px;
+  border:1px solid #000;
+}
+.top-text{
+  padding-top:20px;
+}
+.top-text p{font-size:24px;}
+.box {
+  background-color: rgba(20, 20, 20, 0.2);
+  width: 100%;
+  width:800px;
+  clear:both;
+  background:pink;
+}
+.footer_content{
+  clear:both;
+  height:130px;width:100%;
+  background:#E6E6FA;
+  position:absolute;
+  top:1080px;
+  bottom:0;
+  margin:-1px;
+  box-shadow:0px 0px 2px;
+  border:1px solid #E6E6FA;
+
+}
+.footer_menu{
+  width:100%;
+  height:100px;
+  padding-top:15px;
+  background:;
+}
+.bigli{
+  float:left;
+  width:18%;
+  margin-left:7%;
+  font-size:14px;
+}
+.smallli{
+  margin-left:10px;
+}
+.bigli h1{
+  font-size:18px;
+}
+.cr{
+  width:100%;
+  height:30px;
+  background:;
+  text-align:center;
+    background: #141414;
+    background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAxCAIAAACUDVRzAAAAA3NCSVQICAjb4U/gAAAALElEQVQImWMwMrJi+v//PxMDw3+m//8ZoPR/qBgDEhuXGLoeYswhXg8R5gAAdVpfoJ3dB5oAAAAASUVORK5CYII=) 100% 100%; 
+    background: -moz-linear-gradient(top, #32323a 0%, #141414 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #32323a), color-stop(100%, #141414));
+    background: -webkit-linear-gradient(top, #32323a 0%, #141414 100%);
+    background: -o-linear-gradient(top, #32323a 0%, #141414 100%);
+    background: -ms-linear-gradient(top, #32323a 0%, #141414 100%);
+    background: linear-gradient(to bottom, #32323a 0%, #141414 100%);
+}
+.cr small{
+  line-height:30px;
+  width:100%;
+  clear:both;
+  color:gray;
+
+}
+</style>
+</head>
+<body>
+<div id="pageall">
+  <!--begin header_all-->
+  <div id="header_all">
+    <div id="header">
+      <div id="logo">
+        <a href="../php/logout.php"><img src="img/logo/logo.png"><img src="../../img/standby_letter.png" style="width:150px;"></a>
+      </div>
+      <!--
+      <div id="serch_form">
+        <form method="post" action="../friend_serch.php">
+          <input name="serch" type="text" placeholder="Serch Friends" maxlength="20">
+        </form>
+      </div>
+      <div id="menu">
+        <ul id="idmenu" class="bluemenu">
+          <li><a href="../SB_mypage/mypage.php">mypage</a></li>
+          <li><a href="../SB_Profile/profile.php">profile</a></li>
+          <li>friends
+            <ul>     
+              <li><a href="../SB_mypage/mypage.php#lower_content">全て<span class="friends_num">(<?php echo $f_all_num; ?>)</span></a></li>
+              <li><a href="../SB_mypage/mypage.php#lower_content">友達リクエスト<span class="friends_num">(<?php echo $f_request_num; ?>)</span></a></li>
+              <li><a href="../SB_mypage/mypage.php#lower_content">家族<span class="friends_num">(<?php echo $f_type_num[0]; ?>)</span></a></li>
+              <li><a href="../SB_mypage/mypage.php#lower_content">恋人<span class="friends_num">(<?php echo $f_type_num[1]; ?>)</span></a></li>
+              <li><a href="../SB_mypage/mypage.php#lower_content">小・中学校<span class="friends_num">(<?php echo $f_type_num[2]; ?>)</span></a></li>
+              <li><a href="../SB_mypage/mypage.php#lower_content">高校<span class="friends_num">(<?php echo $f_type_num[3]; ?>)</span></a></li>
+              <li><a href="../SB_mypage/mypage.php#lower_content">大学・専門<span class="friends_num">(<?php echo $f_type_num[4]; ?>)</span></a></li>
+              <li><a href="../SB_mypage/mypage.php#lower_content">勤務先<span class="friends_num">(<?php echo $f_type_num[5]; ?>)</span></a></li>
+              <li><a href="../SB_mypage/mypage.php#lower_contentt">その他<span class="friends_num">(<?php echo $f_type_num[6]; ?>)</span></a></li>
+            </ul>
+          </li>
+          <li>Questions
+            <ul>
+              <li><a href="../friend_serch.php">New Question</a></li>
+            </ul>
+          </li>
+          <li>Other
+            <ul>
+                <li><a href="../logout.php"><div class="friends_type">ログアウト</div><span class="friends_num"></span></a></li>
+                <li><a href="#"><div class="friends_type">StandByについて</div><span class="friends_num"></span></a></li>
+                <li><a href="../rules_etc/rules.html"><div class="friends_type">利用規約</div><span class="friends_num"></span></a></li>
+                <li><a href="../rules_etc/help.html"><div class="friends_type">ヘルプ</div><span class="friends_num"></span></a></li>
+                <li><a href="../rules_etc/contact.php"><div class="friends_type">お問い合わせ</div><span class="friends_num"></span></a></li>
+                <li><a id="go" rel="leanModal" href="#delete_acount"><div class="friends_type">アカウントの削除</div><span class="friends_num"></span></a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      -->
+    </div>
+  </div>
+  <!--end header_all-->
+
+  <div class="content"><!--bigin content-->
+  <div class="toptitle">
+    <div class="top-text" style="margin-top:20px;">
+      <h1 style="font-size:28px;font-family:meiryo;color:#545454;">pepoQは人と人との関係をより深くするためのこれまでにないSNSです</h1>
+    </div>
+  </div>
+  <div class="lower_content">
+
+    <div class="box">
+      <div class="box_img box_fl"><img src="img/content/about.png" style="width:200px;height:200px;"></div>
+      <div class="box_item box_fl">
+      <div class="text-con">
+        <span class="data_title"><i class="fa fa-file-text" style="font-size:20px;">About stand by</i></span>
+        <p style="word-wrap:break-word;">
+        pepoQは人間関係をデザインし、互いのリレーションシップを見える形で表現する、今までになかったプロフィールサイトです。 あなたのプロフィールは友達のプロフィールの一部になり、逆にあなたも友達のプロフィールの一部になります。 あなたのページを見ればあなたがわかる。あなたはどんな人間なのだろう。 その答えはpepoQの中にある。 
+        </p>
+      </div>
+      </div>
+    </div><!--end comment-->
+
+    <div class="box" style="clear:both;">
+      
+      <div class="box_item box_fl">
+      <div class="text-con">
+        <span class="data_title"><i class="fa fa-file-text" style="font-size:20px;">step 1</i></span>
+        <p style="word-wrap:break-word;">
+        あなたのプロフィールを完成させましょう。 あなたの使っているSNSや通っている学校、職場などの簡単なプロフィールを作ります。 また、簡単な自己紹介として、commentを活用してください。 友達が見てわかりやすいようなページにできるといいですね。
+        </p>
+      </div>
+      </div>
+      <div class="box_img box_fl"><img src="img/content/about4.png" style="width:200px;height:200px;"></div>
+    </div><!--end comment-->
+
+    <div class="box">
+    <div class="box_img box_fl"><img src="img/content/about2.png" style="width:200px;height:200px;"></div>
+      <div class="box_item box_fl">
+      <div class="text-con">
+        <span class="data_title"><i class="fa fa-file-text" style="font-size:20px;">step 2</i></span>
+        <p style="word-wrap:break-word;">
+        友達を見つけてfollowしよう。 followボタンを押すと友達申請されます。申請するとあなたの友達を紹介することができます。 友達との思い出や、魅力などを具体的に書いてあげましょう。
+        </p>
+      </div>
+    </div>
+
+    </div><!--end comment-->
+
+    <div class="box">
+      
+      <div class="box_item box_fl">
+      <div class="text-con">
+        <span class="data_title"><i class="fa fa-file-text" style="font-size:20px;">step 3</i></span>
+        <p style="word-wrap:break-word;">
+        友達のプロフィールを見てみよう。 その人の友達がどんな風にその人のことを紹介しているかをみることによってさらにその人を深く知ることができます。 
+        </p>
+      </div>
+      </div>
+      <div class="box_img box_fl"><img src="img/content/about3.png" style="width:200px;height:200px;"></div>
+    </div><!--end comment-->
+
+  </div>
+
+  </div><!--end content-->
+  <div class="footer_content">
+    <div class="footer_menu">
+      <ul class="footer_menu_contents">
+        <li class="bigli"><h1>pepoQについて</h1>
+          <ul><li class="smallli">about</li></ul>
+        </li>
+        <li class="bigli"><h1>login&signup</h1>
+          <ul>
+            <li class="smallli">login</li>
+            <li class="smallli">signup</li>
+            <li class="smallli">アカウントの削除</li>
+          </ul>
+        </li>
+        <li class="bigli"><h1>SNS</h1>
+          <ul>
+            <li class="smallli">facebook</li>
+            <li class="smallli">twitter</li>
+          </ul>
+        </li>
+        <li class="bigli"><h1>other</h1>
+          <ul>
+            <li class="smallli">利用規約</li>
+            <li class="smallli">help</li>
+            <li class="smallli">contact</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="cr">
+      <small>Copyright pepoQ 2015 all right reserved.</small>
+    </div>
+  </div>
+
+</div>
+<script src="../style/js/script.js"></script>
+</body>
+</html>

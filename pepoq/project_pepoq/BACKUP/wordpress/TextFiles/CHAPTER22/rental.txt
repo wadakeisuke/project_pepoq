@@ -1,0 +1,40 @@
+<p class="alignright"><img src="[image_path]" alt="" title="" width="220" height="136" class="alignnone" /></p>
+
+<p class="large serif">緑は人に癒しを与えてくれます。</p>
+
+オフィスやお店に観葉植物を置いてみませんか？貴社のイメージアップの為に、インテリアのプロがじっくりご相談を承ります。
+
+当社では常に新鮮で爽やかな空間をご提案する一環として、観葉植物のリース、レンタルサービスをご提供させて頂いております。
+
+レンタル頂いた観葉植物は、担当者が責任を持って定期的に診断、廃棄処分とならないように配慮しています。また、仮に弱ってしまった植物にもメンテナンスを施し、リユースできる技術を取り入れるなど環境への取り組みも行っています。
+
+<div class="box-full">
+<div class="hgroup">
+<h4 class="product">製品一覧</h4>
+<h5>products</h5>
+</div>
+<img src="[image_path]" alt="" title="製品一覧" width="175" height="117" class="alignright" />
+
+当社の家具は、設計・製造段階から環境に配慮し、緑に合うようにデザインされたものばかりです。
+
+<a href="../products/">製品一覧</a>
+</div>
+
+<div class="box-half left">
+<div class="hgroup">
+<h4 class="office">オフィス</h4>
+<h5>office</h5>
+</div>
+<a href="../../roomtype/office/"><img src="[image_path]" alt="" title="office" width="95" height="62" /></a>
+
+オフィス向けの家具
+
+</div>
+
+<div class="box-half right">
+<div class="hgroup">
+<h4 class="store">店舗紹介</h4>
+<h5>store location</h5>
+</div>
+<a href="../store-location/"><img src="[image_path]" alt="" title="店舗紹介" width="95" height="62" /></a>
+</div>

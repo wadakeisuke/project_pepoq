@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ja" ng-app="SbM_top">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<title>登録</title>
+<script src="style/js/angular.min.js"></script>
+<script language="javascript">
+  angular.module("SbM_top", [])
+  .directive("match", ["$parse", function($parse) {
+    return {
+      require: 'ngModel',
+        link: function(scope, elem, attrs, ctrl) {
+          scope.$watch(function() {
+            var target = $parse(attrs.match)(scope);  // 比較対象となるモデルの値
+            return !ctrl.$modelValue || target === ctrl.$modelValue;
+          }, function(currentValue) {
+              ctrl.$setValidity('mismatch', currentValue);
+            });
+        }
+    }
+  }]);
+</script>
+<style>
+.content{
+	position:relative;
+	width:100%;
+	height:100%;
+	top:70px;
+	background-color:#FFFFE0;
+}
+.search_form{
+	height:50px;
+	width:100%;
+	background:red;
+}
+.search_box{
+	float:left;
+	width:50%;
+	height:100%;
+}
+</style>
+<link rel="stylesheet" href="style/css/style.css"　type="text/css">
+</head>
+<body>
+<!--begin Pageall-->
+<div id="pageall">
+  <!--begin header-->
+  <header>
+      <img src="../../img/logo.png"><p>sign up</p>
+  </header>
+  <!--end header-->
+ <div class="content">
+  <!--search form-->
+<div class="search_form">
+	<div class="search_box"><input type="text"placeholder="searchbox"></div>
+	<div class="search_box"><input type="submit" value="next"></div>
+</div>
+  <!--search form-->
+  <!--content-->
+
+<div style="margin:0 auto;background-color:white;position:relative;width:100%;border-bottom:solid 1px gray;">
+	<div style="width:95%;margin:0 auto;">
+		<div id="user_image" style="float:left;width:20%;height:100%;padding-top:10px;">
+			<img src="man.jpg" height="60px;" style="max-width:100%;">
+		</div>
+		<div class="user_question" style="width:80%;height:100%;float:left;padding-bottom:30px;">
+			<div style="width:95%;margin:0 auto;">
+				<div id="user_name" style="height:30px;padding-top:10px;">早稲田大学</div>
+				<form><input type="button" value="フォローする"></form>
+			</div>
+		</div>
+		<div style="clear:both;"></div>
+	</div>
+</div>
+<div style="margin:0 auto;background-color:white;position:relative;width:100%;border-bottom:solid 1px gray;">
+	<div style="width:95%;margin:0 auto;">
+		<div id="user_image" style="float:left;width:20%;height:100%;padding-top:10px;">
+			<img src="man.jpg" height="60px;" style="max-width:100%;">
+		</div>
+		<div class="user_question" style="width:80%;height:100%;float:left;padding-bottom:30px;">
+			<div style="width:95%;margin:0 auto;">
+				<div id="user_name" style="height:30px;padding-top:10px;">早稲田大学</div>
+				<form><input type="button" value="フォローする"></form>
+			</div>
+		</div>
+		<div style="clear:both;"></div>
+	</div>
+</div>
+  <!--content-->
+<div class="content">
+
+</div>
+<!-- End Pageall-->
+</body>

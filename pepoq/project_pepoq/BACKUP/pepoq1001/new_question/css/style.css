@@ -1,0 +1,88 @@
+/*======================================================
+==========4.other commmon===================start=======
+=======================================================*/
+*{
+
+	font-family : YuGothic, '游ゴシック', sans-serif;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #DCDCDC;
+}
+textarea{
+	width: 80%;
+	margin:10px 10%;
+	height: 150px;
+    font-size:14px;
+    border: 1px solid #B9C9CE;
+    border-radius:5px;
+}
+button.btn {
+  height: 40px;
+  padding: 0 3px;
+  cursor: pointer;
+  color:white;
+  border:none;
+  -webkit-appearance:none;
+  width:180px;
+  background:#d61e44;
+}
+input.btn {
+  height: 40px;
+  padding: 0 3px;
+  cursor: pointer;
+  color:white;
+  border:none;
+  -webkit-appearance:none;
+  width:180px;
+  background:#d61e44;
+}
+/*======================================================
+==========4.other commmon===================end=========
+=======================================================*/
+
+/*======================================================
+==========4.other header===================start========
+=======================================================*/
+#header_all{position:fixed;width:100%;}
+#upper_header{background-color:#CC3333;height:30px;line-height:30px;}
+#page_back{float:left;width:10%;text-align:center;}
+#page_title{color: white;text-align:center;float:left;font-size:16px;width:80%;}
+.icon{font-size: 20px;color:black;}
+.back_icon{font-size: 20px;color:black;}
+/*======================================================
+==========4.other header===================start========
+=======================================================*/
+.content{
+	width:100%;
+	background-color:#DCDCDC;
+	height:100%;
+	padding-top:30px;
+	text-align:center;
+}
+.select-box {
+	border: 1px solid #e74c3c;
+	border-radius: 3px;
+	color:black;
+	font-size: 14px;
+	height: 30px;
+	line-height: 30px;
+	text-align: left;
+	text-indent: 5px;
+	width: 60%;
+	margin:10px 20%;
+}
+.new_question_format{
+	width:100%;
+}
+.input-item {
+    width: 60%;
+    margin: 20px 20% 30px;
+    height: 30px;
+    background: #ecf0f1;
+    border-radius: 3px;
+    color: #757575;
+    font-size: 12px;
+    line-height: 30px;
+}

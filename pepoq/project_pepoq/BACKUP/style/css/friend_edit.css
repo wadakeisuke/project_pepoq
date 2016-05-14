@@ -1,0 +1,145 @@
+.popup_window{
+padding:10px 30px 20px;
+display:none;
+background-color: rgba(255, 255, 255, 0.9);
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+}
+#standby  {
+color:black;
+width:770px;height:380px;padding:15px;
+display:none;
+background-color:rgba(255,255,255,0.8);
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+box-shadow: 0px 0px 4px rgba(0,0,0,0.7);
+-webkit-box-shadow: 0 0 4px rgba(0,0,0,0.7);
+-moz-box-shadow: 0 0px 4px rgba(0,0,0,0.7);    
+  }
+/*---------------------------------------
+  END UPPER CONTENT POPUP WINDOW
+-----------------------------------------*/
+#comment1{
+width:750px;height:450px;padding:0px 20px 20px 20px;
+display:none;
+background: #FFF;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+box-shadow: 0px 0px 4px rgba(0,0,0,0.7);
+-webkit-box-shadow: 0 0 4px rgba(0,0,0,0.7);
+-moz-box-shadow: 0 0px 4px rgba(0,0,0,0.7);
+}
+#edit1{
+  color:black;
+  width:770px;height:570px;padding:15px;
+  display:none;
+  background-color:rgba(255,255,255,0.8);
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  box-shadow: 0px 0px 4px rgba(0,0,0,0.7);
+  -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.7);
+  -moz-box-shadow: 0 0px 4px rgba(0,0,0,0.7);    
+}
+#goodby1{
+  width: 600px;
+  padding: 30px;
+  display:none;
+  background: #FFF;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  box-shadow: 0px 0px 4px rgba(0,0,0,0.7);
+  -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.7);
+  -moz-box-shadow: 0 0px 4px rgba(0,0,0,0.7);
+}
+');
+}
+?>
+/*---------------------------------------
+  BEGIN UPPER CONTENT POPUP WINDOW
+-----------------------------------------*/
+#lean_overlay {
+    position: fixed;
+    z-index: 10000;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
+}
+.popup_window{
+padding:10px 30px 20px;
+display:none;
+background-color: rgba(255, 255, 255, 0.9);
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+}
+#edit_img{
+color:gray;
+width: 400px;
+}
+#edit_name{
+width: 220px;
+}
+#edit_comment{
+width: 500px;
+}
+#edit_comment textarea{
+  font-size:18px;
+  padding:5px;
+}
+#edit_basicdata{
+width: 380px;
+}
+#edit_love_and_likes{
+width: 220px;
+}
+/*---------------------------------------
+  END UPPER CONTENT POPUP WINDOW
+-----------------------------------------*/
+
+
+/*---------------------------------------
+  LEAN MODAL　style
+-----------------------------------------*/
+/*======================================共通スタイル================================================*/
+.c_e_g p{
+  color:black;font-size:14px;
+  font-family:‘Sacramento’, cursive,"Times New Roman", "游明朝", YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+}
+.c_e_g h2{color: #444;font-size:20px; font-family:‘Sacramento’, cursive,"Times New Roman", "游明朝", YuMincho, "Hiragino Mincho ProN", Meiryo, serif;}
+.c_e_g .txt-fld textarea{width:660px;padding:5px;}
+.c_e_g .txt-fld input {
+  width: 600px; 
+  padding: 0px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px; 
+  font-size: 1.2em;
+  color: #222;
+  background: #F7F7F7;
+  font-family: "Helvetica Neue";
+  outline: none;
+  border-top: 1px solid #CCC; 
+  border-left: 1px solid #CCC;
+  border-right: 1px solid #E7E6E6;
+  border-bottom: 1px solid #E7E6E6;
+  }
+.c_e_g .btn-fld{float:left;clear:both;}
+
+
+
+
+
+
+
+
+
+
+/*======================================comment_edit================================================*/
+/*======================================comment_edit================================================*/

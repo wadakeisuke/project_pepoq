@@ -1,0 +1,618 @@
+/*======================================Begin 共通スタイル===========================================*/
+html,body{
+   font-family: 'メイリオ';
+  color:white;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+a{
+  color: white;
+  text-decoration: none;
+  -webkit-transition: 0.8s;
+  -moz-transition: 0.8s;
+  -o-transition: 0.8s;
+  -ms-transition: 0.8s;
+  transition: 0.8s;
+}
+ul li{
+  list-style-type: none;
+}
+hr{
+  border: 0;
+  height: 0;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.3);
+}
+select{
+   border-radius: 5px;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -o-border-radius: 5px;
+   -ms-border-radius: 5px;
+   border:#a9a9a9 1px solid;
+   -moz-box-shadow: inset 0 0 5px rgba(0,0,0,0.2),0 0 2px rgba(0,0,0,0.3);
+   -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2),0 0 2px rgba(0,0,0,0.3);
+   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2),0 0 2px rgba(0,0,0,0.3);
+   width:100px;
+   height:25px;
+   padding:0 3px;
+}
+textarea{
+  padding: 5px;
+  resize:none;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -o-border-radius: 5px;
+   -ms-border-radius: 5px;
+   border:#a9a9a9 1px solid;
+   -moz-box-shadow: inset 0 0 5px rgba(0,0,0,0.2),0 0 2px rgba(0,0,0,0.3);
+   -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2),0 0 2px rgba(0,0,0,0.3);
+   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2),0 0 2px rgba(0,0,0,0.3);
+}
+
+/*======================================End 共通スタイル==============================================*/
+/*======================================！！！追加！！！==============================================*/
+.modal_close{ 
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  display: block; 
+  width: 14px;
+  height: 14px; 
+  z-index: 2;
+  background-repeat: no-repeat;
+  background-image:url("../../../img/batu.gif");
+
+}
+button.goodby{
+  width:150px;
+  height:30px;
+  padding: 0px 40px;
+  font-size: 18px;
+  background-color: white;
+  color: black;
+  border-style: none;
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -o-transition: 0.6s;
+  -ms-transition: 0.6s;
+  transition: 0.6s;
+}
+
+button.goodby:hover {
+  color:  white;
+  background-color: red;
+}
+.tab_wrapper{
+  position: relative;
+  line-height: 1.8;
+  margin:0 auto;
+  height: 400px;
+}
+.tabContainer ul.controls,
+.tabContainer .controls li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.tabContainer .controls li {
+  display: inline-block;
+  word-wrap: break-word;
+}
+.tabContainer .controls li a {
+  display: block;
+  padding: 0.5em 1em;
+  background-color: rgba(20, 20, 20, 0.6);
+  color: #fff;
+  border-radius: 8px 8px 0 0 ;
+  behavior: url(PIE.htc);
+}
+.tabContainer .controls li.current a,
+.tabContainer .controls li a:hover {
+  color: steelblue;
+   background-color: rgba(20, 20, 20, 0.7);
+}
+#lower_content .post {
+  overflow: hidden;
+  background-color: rgba(20, 20, 20, 0.7);
+  min-height: 260px;
+  padding:10px;
+}
+.c_e_g .post {
+  overflow: hidden;
+  background-color: rgba(20, 20, 20, 0.7);
+  height: 260px;
+  padding:10px;
+}
+
+
+
+/*popup window standby*/
+.popup_select{
+  width:210px;
+  height:20px;
+}
+input.fr_tab_name{
+  cursor:pointer;
+  color:white;
+  font-size:18px;
+  background-color: rgba(20,20,20,0.5);
+  font-weight:normal;
+}
+input[type=text]:focus{
+  border:solid 1px #2bb;
+  outline: 0;
+}
+input#more_relation{
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -o-border-radius: 5px;
+   -ms-border-radius: 5px;
+   border:#a9a9a9 1px solid;
+   -moz-box-shadow: inset 0 0 5px rgba(0,0,0,0.2),0 0 2px rgba(0,0,0,0.3);
+   -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2),0 0 2px rgba(0,0,0,0.3);
+   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2),0 0 2px rgba(0,0,0,0.3);
+}
+input#more_relation[type=text]:focus{
+  border:solid 1px #2bb;
+  outline: 0;
+}
+#page_all{
+  min-width: 580px;
+}
+
+input[type=submit].edit_button{
+  width:100%;
+    color: black;
+  text-decoration: none;
+  -webkit-transition: 0.8s;
+  -moz-transition: 0.8s;
+  -o-transition: 0.8s;
+  -ms-transition: 0.8s;
+  transition: 0.8s;
+}
+input[type=submit].edit_button:hover{
+  background-color:gray;
+}
+.friends-image img{
+  width: 200px;
+  height: 200px;
+}
+input#standby_button {
+  width:150px;
+  height:30px;
+  padding: 0px 40px;
+  font-size: 18px;
+  background-color: white;
+  color: black;
+  border-style: none;
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -o-transition: 0.6s;
+  -ms-transition: 0.6s;
+  transition: 0.6s;
+}
+input#standby_button:hover {
+  color:  white;
+  background-color: gray;
+}
+input.standby_button {
+  width:150px;
+  height:30px;
+  padding: 0px 40px;
+  font-size: 18px;
+  background-color: white;
+  color: black;
+  border-style: none;
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -o-transition: 0.6s;
+  -ms-transition: 0.6s;
+  transition: 0.6s;
+}
+input.standby_button:hover {
+  color:  white;
+  background-color: gray;
+}
+/*======================================！！！追加！！！==============================================*/
+
+
+/*======================================Begin header================================================*/
+/*======================================End header================================================*/
+
+/*======================================Begin upper_content=======================================*/
+#upper_content{
+  padding-top:100px;
+  background-color:;
+  min-width:550px;
+  max-width:1100px;
+  margin:0px auto 50px;
+  padding-left: 20px;
+}
+#upper_content strong{
+  font-family: arial;
+  font-size: 15px;
+}
+/*begin edit your name edit your links etc*/
+.link_edit{
+  clear:both;
+  text-align: center;
+  color: #65817a;
+  margin-top:20px;
+  background-color: rgba(20, 20, 20, 0.8);
+  -webkit-transition: all 200ms ease-in;
+  -o-transition: all 200ms ease-in;
+  -moz-transition: all 200ms ease-in;
+  padding:2px;
+  font-family: ‘Sacramento’, cursive;
+}
+.link_edit:hover{
+  color: #86aca3
+}
+/*end edit your name edit your links etc*/
+.box {
+  background-color: rgba(20, 20, 20, 0.5);
+  width: 100%;
+  max-width:500px;
+  margin:10px;
+  padding:10px;
+}
+#thumbnail{
+  float:left;
+}
+#thumbnail img{
+  width: 200px;
+  height: 200px; 
+}
+.qfriend_img img{
+  width: 100px;
+  height: 100px; 
+}
+/*begin thumbnail hover*/
+figure {
+  padding:0;margin:0;
+}
+figcaption {
+  position: absolute;
+  margin:10px;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 200px;
+  height: 200px;
+  background: rgba(0,0,0,.6);
+  -webkit-transition: .3s;
+  transition: .3s;
+  opacity: 0;
+}
+figcaption img#more{
+  width:20px;height:20px;margin:90px 90px 90px 90px;
+}
+figure:hover figcaption {
+  opacity: 1;
+}
+/*begin icon*/
+#icon_and_name{
+  float:left;min-width:290px;height:200px;
+}
+/*begin social icon*/
+#social_icon{
+  padding-bottom:30px;
+}
+/*end social icon*/
+#social_icon a:hover img{
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  -ms-filter: "alpha(opacity=50)";
+}
+#social_icon ul{
+  padding:10px;
+  margin-left:30px;
+}
+#social_icon li{
+  float: left;
+  margin-left: 15px;
+}
+img.social_icon{
+
+}
+/*end icon*/
+/*begin user_name*/
+#user_name{
+  position:relative;
+  margin-bottom:18px;
+}
+#user_name p{
+  margin:0;
+  padding:0 0 25px;
+  font-size:20px;
+  text-align:center;
+}
+
+#user_name cite{
+  position:absolute;
+  bottom:0;
+  right:30px;
+}
+/*end user_name*/
+/*begin comment*/
+#comment p{
+  font-family:"Times New Roman", "游明朝", YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+  padding: 25px;
+  color: white;
+  font-size: 18px;
+}
+/*end comment*/
+
+.data_title{
+  font-family:  ‘Sacramento’, cursive,Impact,Charcoal;
+  font-size:20px;
+  padding-left:15px;
+}
+/*begin basic_data*/
+#basic_data{
+  padding-top: 10px;
+}
+#basic_data ul{
+  padding-bottom: 10px;
+}
+#basic_data ul li{ 
+  font-size: 18px;
+  font-family:"Times New Roman", "游明朝", YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+  color: white;
+  text-overflow: ellipsis;   
+  text-overflow: clip; 
+  overflow: hidden; 
+  text-overflow: ellipsis;    
+  -webkit-text-overflow: ellipsis; 
+  -o-text-overflow: ellipsis; 
+  margin:0;
+  padding:0;
+  max-width: 400px;
+  background-color:;
+}
+/*end basic_data*/
+/*begin love_and_likes*/
+#love_and_likes{
+  padding-top:10px;
+}
+#love_and_likes ul li{
+  font-size: 18px;
+  font-family:"Times New Roman", "游明朝", YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+}
+/*end love_and_likes*/
+
+/*begin 吹き出し*/
+.balloon-1-left {
+  position: relative;
+  display: inline-block;
+  padding: 0 15px;
+  width: auto;
+  min-width: 115px;
+  line-height: 34px;
+  color: #19283C;
+  text-align: center;
+  background: #F6F6F6;
+    border-radius: 10px;
+  border: 2px solid gray;
+  z-index: 0;
+}
+.balloon-1-left:before {
+  content: "";
+  position: absolute;
+  top: 20px; left: -8px;
+  margin-top: -9px;
+  display: block;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+
+  border-width: 9px 9px 9px 0;
+  border-color: transparent #F6F6F6 transparent transparent;
+  z-index: 0;
+}
+.balloon-1-left:after {
+  content: "";
+  position: absolute;
+  top: 20px; left: -11px;
+  margin-top: -10px;
+  display: block;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent gray transparent transparent;
+  z-index: -1;
+}
+/* balloon-1 right */
+.balloon-1-right {
+  position: relative;
+  display: inline-block;
+  padding: 0 15px;
+  width: auto;
+  min-width: 115px;
+   border-radius: 10px;
+  line-height: 34px;
+  color: #19283C;
+  text-align: center;
+  background: #F6F6F6;
+  border: 2px solid gray;
+  z-index: 0;
+}
+.balloon-1-right:before {
+  content: "";
+  position: absolute;
+  top: 20px; right: -8px;
+  margin-top: -9px;
+  display: block;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 9px 0 9px 9px;
+  border-color: transparent transparent transparent #F6F6F6;
+  z-index: 0;
+}
+.balloon-1-right:after {
+  content: "";
+  position: absolute;
+  top: 20px; right: -11px;
+  margin-top: -10px;
+  display: block;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent gray;
+  z-index: -1;
+}
+/*end 吹き出し*/
+/*======================================End upper_content================================================*/
+
+/*======================================Begin lower_content==============================================*/
+#lower_content{
+  margin-bottom:300px;
+  width:1100px;
+  max-width: 1200px;
+  margin:0 auto;
+}
+#friends_all{
+font-family: ‘Sacramento’, cursive,"Times New Roman", "游明朝", YuMincho, "Hiragino Mincho ProN", Meiryo, serif;/*<tuika>*/
+}
+.fbox{
+background: rgba(0, 0, 0, 0.44);
+position:relative;
+margin-left: auto:
+margin-right:auto;
+margin-top: 10px;
+margin-left: 10px;
+float:left;
+background: rgba(0, 0, 0, 0.44);
+-webkit-box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.44);
+box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.44);
+}
+.friends-c_e_g{ 
+position:absolute;
+background: rgba(0, 0, 0, 0.44);
+margin-top:-35px;
+z-index:10;
+height:30px;
+overflow:hidden;
+}
+.friends-c_e_g p{
+margin:0;
+padding:0;
+font-size:14px;
+line-height:30px;
+padding-left:5px;
+padding-right:5px;
+color:#fff;
+color: white;font-family: ‘Sacramento’, cursive,"Times New Roman", "游明朝", YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+}
+.friends-c_e_g a{
+color:#fff;
+color: white;font-family: ‘Sacramento’, cursive,"Times New Roman", "游明朝", YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+}
+#txt-fld select{
+  width: 200px;
+  height: 20px;
+}
+button.stand_by{
+  -webkit-transition: 0.8s;
+  -moz-transition: 0.8s;
+  -o-transition: 0.8s;
+  -ms-transition: 0.8s;
+  transition: 0.8s;
+  background-color: rgba(20,20,20,0.4);
+  color: gray;
+  cursor: pointer;
+  font-weight: bold;
+  border-style: none;
+  box-shadow: 2px 2px 3px 1px #666;
+  -moz-box-shadow: 2px 2px 3px 1px #666;
+  -webkit-box-shadow: 2px 2px 3px 1px #666;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 1em;
+ padding: 7px 10px;
+}
+button.goodby{
+  -webkit-transition: 0.8s;
+  -moz-transition: 0.8s;
+  -o-transition: 0.8s;
+  -ms-transition: 0.8s;
+  transition: 0.8s;
+  background-color: rgba(20,20,20,0.4);
+  color: gray;
+  cursor: pointer;
+  font-weight: bold;
+  border-style: none;
+  box-shadow: 2px 2px 3px 1px #666;
+  -moz-box-shadow: 2px 2px 3px 1px #666;
+  -webkit-box-shadow: 2px 2px 3px 1px #666;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 1em;
+ padding: 7px 10px;
+}
+
+
+/*======================================End lower_content===========================================*/
+
+/*======================================Begin footer================================================*/
+
+#footer_all{
+  font-family: ‘Sacramento’, cursive,"Times New Roman", "游明朝", YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+  clear: both;
+  width:100%;
+  padding-top:10px;
+  margin-top:50px;
+}
+#copyright{
+  background-color: black;
+  font-size:18px;
+  width: 100%;
+  min-width:580px;
+  text-align:center;
+}
+/*======================================End footer==================================================*/
+
+/*======================================Begin popup window===========================================*/
+.edit_format h2{
+  font-size:22px;
+  color:black;
+  font-family: ‘Sacramento’, cursive;
+}
+.edit_format p{
+  font-size:18px;
+  color:gray;
+  font-family: ‘Sacramento’, cursive;
+}
+.edit_format{
+  background-color:;
+}
+.edit_format input[type=text],input[type=submit]{
+   border-radius: 5px;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -o-border-radius: 5px;
+   -ms-border-radius: 5px;
+   border:#a9a9a9 1px solid;
+   -moz-box-shadow: inset 0 0 5px rgba(0,0,0,0.2),0 0 2px rgba(0,0,0,0.3);
+   -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2),0 0 2px rgba(0,0,0,0.3);
+   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2),0 0 2px rgba(0,0,0,0.3);
+   width:200px;
+   height:25px;
+   padding:0 3px;
+}
+
+.edit_format input[type=text]:focus,textarea:focus{
+   border:solid 1px #2bb;
+}
+
+.edit_format input[type=text],textarea, select { 
+   outline: none;
+}
+/*======================================End popup window=============================================*/

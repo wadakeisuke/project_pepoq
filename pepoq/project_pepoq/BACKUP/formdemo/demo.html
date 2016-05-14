@@ -1,0 +1,596 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<title>お問合せフォーム - 「すぐ使えるメールフォーム」デモ</title>
+<meta name="robots" content="index, nofollow">
+<link href="css/site.css" rel="stylesheet" media="screen">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+
+<div class="row" style="margin: 10px auto;">
+
+<div class="span12">
+
+<h1>お問合せフォーム</h1>
+
+<ol class="progress">
+<li class="bar progress-striped active current" style="width: 40%;">入力</li>
+<li class="bar" style="width: 35%;">確認</li>
+<li class="bar" style="width: 25%;">完了</li>
+</ol>
+
+<!-- 
+info		エラーがある時「error」ない時「info」
+<p>項目にご記入の上「確認画面へ」ボタンを押して下さい。</p>	メッセージ
+-->
+
+<div class="text-info">
+<p>項目にご記入の上「確認画面へ」ボタンを押して下さい。</p>
+</div>
+
+<!-- form の id 属性は変更不可 -->
+<form class="form-horizontal" method="post" action="index.cgi" id="sugu_mainform">
+<input type="hidden" name="s" value="2">
+<input type="hidden" name="i" value="7b3fc500295bb670de82c52f49bb036f">
+
+<!--
+フィールドの設定です。
+管理画面で「使用しない」を選んだ項目については
+コメントで挿入されている xxx begin  から  xxx end までが
+自動的に削除されます。
+
+管理画面での設定と関係なくこれらのフィールドの表示を残したい場合は
+コメントを削除して下さい。
+
+
+コメントで挿入されている xxx_item begin から xxx_item end までは、
+管理画面で設定した繰り返しの選択肢の表示に使われます。
+もし個別に表示する内容を設定したい場合は、このコメントを削除して編集して下さい。
+
+
+
+id属性やname属性、コメントに含まれている 「inputfield_xxx」の部分は
+プログラムでフィールドの識別に使いますので変更しないで下さい。
+
+入力エラーなどの状態によって、いくつかの値はそれぞれ以下のように置き換えられます。
+フィールドを組み合わせる場合などは削除して別の設定を行って構いません。
+
+			管理画面で設定した「項目名」
+		管理画面で必須設定がされていれば「required」
+		管理画面で設定されていれば最大文字長さ
+		xxxx の項目の入力にエラーがあれば「error」
+				そのフィールドにエラーがあった場合、エラーの内容
+
+-->
+
+<fieldset>
+<legend>ご連絡先情報</legend>
+
+
+<!-- 姓・名 -->
+<div class="control-group  required  required">
+<label class="control-label" for="fullname">お名前 <abbr id="surname_required" class="required" title="必須項目">※</abbr></label>
+	<div class="controls form-inline" id="fullname">
+	
+	<!-- inputfield_surname begin -->
+	<span class="help-inline">姓</span>
+	<input class="input-small" type="text" name="surname" id="surname" value="" placeholder="" maxlength="30">
+	<!-- inputfield_surname end -->
+	<!-- inputfield_firstname begin -->
+	<span class="help-inline">名</span>
+	<input class="input-small" type="text" name="firstname" id="firstname" value="" placeholder="" maxlength="30">
+	<!-- inputfield_firstname end -->
+	</div>
+</div>
+
+
+<!-- inputfield_mail begin -->
+<!-- メールアドレス -->
+<div class="control-group  required">
+<label class="control-label" for="mail">メールアドレス <abbr id="mail_required" class="required" title="必須項目">※</abbr></label>
+	<div class="controls">
+	
+	<input class="input-large" type="email" name="mail" id="mail" value="" placeholder="半角で入力して下さい" >
+	</div>
+</div>
+<!-- inputfield_mail end -->
+
+
+<!-- inputfield_mail_conf begin -->
+<!-- メールアドレス（確認） 
+<div class="control-group  required">
+<label class="control-label" for="mail_conf">メールアドレス（確認） <abbr id="mail_conf_required" class="required" title="必須項目">※</abbr></label>
+	<div class="controls">
+	
+	<input class="input-large" type="email" name="mail_conf" id="mail_conf" value="" placeholder="確認用にもう一度入力して下さい" >
+	</div>
+</div>
+ inputfield_mail_conf end -->
+
+
+<!-- inputfield_tel begin -->
+<!-- 電話番号 -->
+<div class="control-group  ">
+<label class="control-label" for="tel">電話番号 </label>
+	<div class="controls">
+	
+	<input class="input-medium" type="tel" name="tel" id="tel" value="" placeholder="例：03-1234-5678" maxlength="20">
+	</div>
+</div>
+<!-- inputfield_tel end -->
+
+
+<!-- inputfield_zip begin -->
+<!-- 郵便番号 -->
+<div class="control-group  ">
+<label class="control-label" for="zip">郵便番号 </label>
+	<div class="controls">
+	
+	<input class="input-small" type="tel" name="zip" id="zip" value="" placeholder="例：123-4567" maxlength="8">
+	</div>
+</div>
+<!-- inputfield_zip end -->
+
+
+<!-- inputfield_pref begin -->
+<!-- 都道府県 -->
+<div class="control-group  ">
+<label class="control-label" for="pref">都道府県 </label>
+	<div class="controls">
+	
+	<select class="input-medium" name="pref" id="pref">
+	<option value="">選択して下さい</option>
+	
+	<option value="北海道" id="pref_01">北海道</option>
+	
+	<option value="青森県" id="pref_02">青森県</option>
+	
+	<option value="岩手県" id="pref_03">岩手県</option>
+	
+	<option value="宮城県" id="pref_04">宮城県</option>
+	
+	<option value="秋田県" id="pref_05">秋田県</option>
+	
+	<option value="山形県" id="pref_06">山形県</option>
+	
+	<option value="福島県" id="pref_07">福島県</option>
+	
+	<option value="茨城県" id="pref_08">茨城県</option>
+	
+	<option value="栃木県" id="pref_09">栃木県</option>
+	
+	<option value="群馬県" id="pref_10">群馬県</option>
+	
+	<option value="埼玉県" id="pref_11">埼玉県</option>
+	
+	<option value="千葉県" id="pref_12">千葉県</option>
+	
+	<option value="東京都" id="pref_13">東京都</option>
+	
+	<option value="神奈川県" id="pref_14">神奈川県</option>
+	
+	<option value="新潟県" id="pref_15">新潟県</option>
+	
+	<option value="富山県" id="pref_16">富山県</option>
+	
+	<option value="石川県" id="pref_17">石川県</option>
+	
+	<option value="福井県" id="pref_18">福井県</option>
+	
+	<option value="山梨県" id="pref_19">山梨県</option>
+	
+	<option value="長野県" id="pref_20">長野県</option>
+	
+	<option value="岐阜県" id="pref_21">岐阜県</option>
+	
+	<option value="静岡県" id="pref_22">静岡県</option>
+	
+	<option value="愛知県" id="pref_23">愛知県</option>
+	
+	<option value="三重県" id="pref_24">三重県</option>
+	
+	<option value="滋賀県" id="pref_25">滋賀県</option>
+	
+	<option value="京都府" id="pref_26">京都府</option>
+	
+	<option value="大阪府" id="pref_27">大阪府</option>
+	
+	<option value="兵庫県" id="pref_28">兵庫県</option>
+	
+	<option value="奈良県" id="pref_29">奈良県</option>
+	
+	<option value="和歌山県" id="pref_30">和歌山県</option>
+	
+	<option value="鳥取県" id="pref_31">鳥取県</option>
+	
+	<option value="島根県" id="pref_32">島根県</option>
+	
+	<option value="岡山県" id="pref_33">岡山県</option>
+	
+	<option value="広島県" id="pref_34">広島県</option>
+	
+	<option value="山口県" id="pref_35">山口県</option>
+	
+	<option value="徳島県" id="pref_36">徳島県</option>
+	
+	<option value="香川県" id="pref_37">香川県</option>
+	
+	<option value="愛媛県" id="pref_38">愛媛県</option>
+	
+	<option value="高知県" id="pref_39">高知県</option>
+	
+	<option value="福岡県" id="pref_40">福岡県</option>
+	
+	<option value="佐賀県" id="pref_41">佐賀県</option>
+	
+	<option value="長崎県" id="pref_42">長崎県</option>
+	
+	<option value="熊本県" id="pref_43">熊本県</option>
+	
+	<option value="大分県" id="pref_44">大分県</option>
+	
+	<option value="宮崎県" id="pref_45">宮崎県</option>
+	
+	<option value="鹿児島県" id="pref_46">鹿児島県</option>
+	
+	<option value="沖縄県" id="pref_47">沖縄県</option>
+	
+	</select>
+	</div>
+</div>
+<!-- inputfield_pref end -->
+
+
+<!-- inputfield_city begin -->
+<!-- 市区町村 -->
+<div class="control-group  ">
+<label class="control-label" for="city">市区町村 </label>
+	<div class="controls">
+	
+	<input class="input-medium" type="text" name="city" id="city" value="" placeholder="市区町村まで" maxlength="15">
+	</div>
+</div>
+<!-- inputfield_city end -->
+
+
+<!-- inputfield_street begin -->
+<!-- 町名・番地 -->
+<div class="control-group  ">
+<label class="control-label" for="street">町名・番地 </label>
+	<div class="controls">
+	
+	<input class="input-xxlarge" type="text" name="street" id="street" value="" placeholder="町名・番地" maxlength="50">
+	</div>
+</div>
+<!-- inputfield_street end -->
+
+
+<!-- inputfield_bldg begin -->
+<!-- ビル名/会社名 -->
+<div class="control-group  ">
+<label class="control-label" for="bldg">ビル名/会社名 </label>
+	<div class="controls">
+	
+	<input class="input-xxlarge" type="text" name="bldg" id="bldg" value="" placeholder="ビル名/会社名等" maxlength="50">
+	</div>
+</div>
+<!-- inputfield_bldg end -->
+
+</fieldset>
+
+
+<fieldset>
+<legend>お問合せ内容</legend>
+
+<!-- inputfield_message begin -->
+<!-- お問合せ内容 -->
+<div class="control-group  required">
+<label class="control-label" for="message">お問合せ内容 <abbr id="message_required" class="required" title="必須項目">※</abbr></label>
+	<div class="controls">
+	
+	<textarea class="input-xxlarge" rows="5" name="message" id="message" placeholder="ご自由にご記入下さい"></textarea>
+	</div>
+</div>
+<!-- inputfield_message end -->
+
+</fieldset>
+
+
+<fieldset>
+<legend>オプション項目設定例</legend>
+
+<p class="text-success" style="margin-bottom: 20px;">
+項目の設定例です。一部の項目は「レギュラー版」のみで使用できます。
+</p>
+
+<h4>郵便場合からの住所入力</h4>
+
+<!-- inputfield_text_01 begin -->
+<!-- 1行テキスト01 -->
+<div class="control-group  ">
+<label class="control-label" for="text_01">郵便番号（住所入力用） </label>
+	<div class="controls">
+	
+	<input class="input-medium imeoff" type="text" name="text_01" id="text_01" value="" placeholder="例：123-4567" maxlength="8"
+	 onKeyUp="if(!document.getElementById('text_02').value){AjaxZip3.zip2addr(this, '', 'text_02','text_02')};">
+	<span class="help-text"><a href="/ja/support/customize#seach-address-by-zip">郵便番号からの住所自動入力の設定方法</a></span>
+	</div>
+</div>
+<!-- inputfield_text_01 end -->
+
+
+<!-- inputfield_text_02 begin -->
+<!-- 1行テキスト02 -->
+<div class="control-group  ">
+<label class="control-label" for="text_02">自動入力住所 </label>
+	<div class="controls">
+	
+	<input class="input-xxlarge imeon" type="text" name="text_02" id="text_02" value="" placeholder="郵便番号入力で途中まで入力されます" maxlength="100">
+	</div>
+</div>
+<!-- inputfield_text_02 end -->
+
+<h4>選択肢によって入力欄を表示</h4>
+<p class="text-success">
+<span>「その他」をクリックすると追加の入力欄が表示されます。<a href="/ja/support/form-design#toggle-fields">追加入力欄の設定方法はこちら。</a></span>
+</p>
+
+<!-- inputfield_radio_01 begin -->
+<!-- ラジオボタン01 -->
+<div class="control-group  ">
+<label class="control-label">アンケート </label>
+	<div class="controls">
+	
+	
+	<label class="radio">
+	<input type="radio" name="radio_01" id="radio_01_01" value="Google">Google
+	</label>
+	
+	<label class="radio">
+	<input type="radio" name="radio_01" id="radio_01_02" value="Yahoo!">Yahoo!
+	</label>
+	
+	<label class="radio">
+	<input type="radio" name="radio_01" id="radio_01_03" value="その他">その他
+	</label>
+	
+	</div>
+</div>
+<!-- inputfield_radio_01 end -->
+
+<!-- inputfield_text_03 begin -->
+<!-- 1行テキスト03 -->
+<div id="additional-field" class="control-group  ">
+<label class="control-label" for="text_03">具体的に </label>
+	<div class="controls">
+	
+	<input class="input-xxlarge" type="text" name="text_03" id="text_03" value="" placeholder="「その他」の場合にご入力下さい" maxlength="100">
+	</div>
+</div>
+<!-- inputfield_text_03 end -->
+
+
+
+<h4>チェックボックスとプルダウンメニュー（選択リスト）</h4>
+
+<!-- inputfield_checkbox_01 begin -->
+<!-- チェックボックス01 -->
+<div class="control-group  ">
+<label class="control-label">飼いたい動物 </label>
+	<div class="controls">
+	
+	
+	<label class="checkbox inline">
+	<input type="checkbox" name="checkbox_01" id="checkbox_01_01" value="犬">犬
+	</label>
+	
+	<label class="checkbox inline">
+	<input type="checkbox" name="checkbox_01" id="checkbox_01_02" value="猫">猫
+	</label>
+	
+	<label class="checkbox inline">
+	<input type="checkbox" name="checkbox_01" id="checkbox_01_03" value="象">象
+	</label>
+	
+	</div>
+</div>
+<!-- inputfield_checkbox_01 end -->
+
+
+<!-- inputfield_select_01 begin -->
+<!-- 選択リスト01 -->
+<div class="control-group  ">
+<label class="control-label" for="select_01">その数 </label>
+	<div class="controls">
+	
+	<select name="select_01" id="select_01" style="width: 4em;">
+	
+	<option value="1" id="select_01_01" selected="selected">1</option>
+	
+	<option value="2" id="select_01_02">2</option>
+	
+	<option value="3" id="select_01_03">3</option>
+	
+	<option value="4" id="select_01_04">4</option>
+	
+	<option value="5" id="select_01_05">5</option>
+	
+	<option value="6" id="select_01_06">6</option>
+	
+	<option value="7" id="select_01_07">7</option>
+	
+	<option value="8" id="select_01_08">8</option>
+	
+	<option value="9" id="select_01_09">9</option>
+	
+	<option value="10" id="select_01_10">10</option>
+	
+	</select> (匹/頭)
+	</div>
+</div>
+<!-- inputfield_select_01 end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</fieldset>
+
+<button type="submit" class="btn btn-primary">確認画面へ</button>
+
+</form>
+
+</div><!-- /span12 -->
+</div><!-- /row -->
+
+<script src="js/jquery-1_8_2_min.js" type="text/javascript"></script>
+<script src="js/bootstrap_min.js" type="text/javascript"></script>
+<script src="js/ajaxzip3.js" charset="UTF-8" type="text/javascript"></script>
+
+<script src="js/site.js" charset="UTF-8" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	set_desc_field_control("radio_01", "その他", "additional-field");
+});
+</script>
+
+<div><span id="suguscr"></span></div><script type="text/javascript"><!--
+sug_ua	   = navigator.userAgent.toLowerCase(); sug_opera	= window.opera; sug_msie	 = (!sug_opera) && (sug_ua.indexOf("msie")		  != -1); sug_msie4	= (!sug_opera) && (sug_ua.indexOf("msie 4")		!= -1); sug_ns4	  = (!sug_opera) && (sug_ua.indexOf("mozilla/4")	 != -1) && (sug_ua.indexOf("compatible") == -1); sug_ns6	  = (!sug_opera) && (sug_ua.indexOf("netscape6/6.0") != -1); sug_n = "index.cgi"; sug_d	 = "a4270dcb4f79113"; sug_ver	  = "1.5"; sug_h	 = "pj4ztaureakustugus3ztamrof-liame2ubx8cysnimda7cysomed6cysaj5cys1ubx08"; MyLoc = get_location(); sug_addr	 = encodeURIComponent(MyLoc); if (!sug_addr){  sug_addr	 = escape(MyLoc); }
+sug_src	 = "http://lcns2.sugutsukaeru.jp/a4270dcb4f79113/1.5/pj4ztaureakustugus3ztamrof-liame2ubx8cysnimda7cysomed6cysaj5cys1ubx08/cgi.js"; function gen_script(){  var str = "<"+"script type='text/javascript' src='" + sug_src + "' defer></"+"script"+">";  return str; }
+function print_script(){  if(sug_ns4 || sug_msie4){  return;  }
+ if(!sug_msie){  document.write(gen_script());  }
+ else{  var MyContainer;  if (document.getElementById('suguscr') != null) {  MyContainer = document.getElementById('suguscr');  }
+ var scriptTag = document.createElement("script");  scriptTag.setAttribute("src", sug_src);  MyContainer.parentNode.insertBefore(scriptTag, MyContainer);  }
+}
+function get_location(){  var MyLoc = window.location.href;  var MyLocInd = MyLoc.indexOf("?",0);  if (MyLocInd > 0){  MyLoc = MyLoc.substring(0, MyLocInd);  }
+ return MyLoc; }
+print_script(); 
+// --></script>
+
+</body>
+
+
+
+</html>

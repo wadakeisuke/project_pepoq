@@ -1,0 +1,55 @@
+/*begin header*/
+#header_all{
+	position:fixed;
+	top:0;
+	width:100%;
+	z-index:1000;
+}
+#upper_header{
+	background-color: white;
+	height: 30px;
+}
+#upper_header a{
+  color: #FFF;
+}
+#logo{
+	color: white;
+	padding-left: 10px;
+}
+#question{
+	position:absolute;
+	top:5px;
+	right:10px;
+}
+#friend{
+	margin-right:0px;margin-top:-40px;
+}
+#circle{
+    top:33px;
+    width: 18px;
+    height: 18px;
+    -webkit-border-radius: 50%;/* 50%でもOK */
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-color: red;/* 円の色 */
+    position: absolute;
+    color:white;
+    background-color:red;
+    font-size: 90%;
+    z-index:9999;
+}
+ul.header_menu {
+  width: 100%;
+}
+ul.header_menu li {
+  padding-top: 15px;
+  text-align: center;
+  float: left;
+  width: 25%;
+  height: 40px;
+  background-color: #d61e44;
+}
+i.header_menu{
+  color:red;
+}
+/*end header*/

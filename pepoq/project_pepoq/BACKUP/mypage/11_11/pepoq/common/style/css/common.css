@@ -1,0 +1,143 @@
+/*======================================================
+==========0.jeneral format~~~~~==========start==========
+=======================================================*/
+*{
+	font-family : YuGothic, '游ゴシック', sans-serif;
+  padding:0;margin:0;
+  -webkit-appearance: none;
+}
+body{
+  background:#ecf0f1;
+	margin: 0;
+	padding: 0;
+  width:100%;
+  height:100%;
+  
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style-type: none;
+}
+
+h1 {
+  font-size:32px;
+  line-height: 1.5;
+  margin: 15px;
+}
+p{
+  color:#757575;
+  font-size:14px;
+}
+a{
+	text-decoration: none;
+	color: #757575;
+  display:block;
+  padding:0;margin:0;
+}
+textarea{
+    width: 90%;
+    height: 60px;
+    font-size:14px;
+    font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo;
+    resize:none;
+    border: 1px solid #B9C9CE;
+    border-radius:5px;
+    padding: 12px 0.8em;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.2);
+}
+textarea:focus{
+	outline: none;
+}
+strong{
+  color:steelblue;
+}
+button.btn {
+  height: 40px;
+  padding: 0 3px;
+  cursor: pointer;
+  color:white;
+  border:none;
+  -webkit-appearance:none;
+  width:180px;
+  background:#d61e44;
+}
+input.btn {
+  height: 40px;
+  padding: 0 3px;
+  cursor: pointer;
+  color:white;
+  border:none;
+  -webkit-appearance:none;
+  width:180px;
+  background:#d61e44;
+}
+/*float_left*/
+.float_left{float:left}
+.f_f{float:left;}
+/*option format*/
+.segmented{
+  display:inline-block;
+  overflow:hidden;
+  margin:10px 10% 10px 10%;
+  height:40px;
+  width:80%;
+  text-align:center;
+}
+.cell{
+  float:left;
+  width:50%;
+  height:40px;
+  font-size:10px;
+  line-height:28px;
+}
+.theme-segmented{
+  border: 1px solid #c0392b;
+  border-radius:5px;
+}
+.theme-segmented .cell{
+  -webkit-box-sizing:border-box;
+  box-sizing:border-box;
+  padding:8px 15px;
+  color:#c0392b;
+  text-decoration: none;
+}
+.theme-segmented .cell.is-current{
+  background:#c0392b;
+  color:#fff;
+}
+.theme-segmented .cell ~ .cell{
+  border-left:1px solid #c0392b;
+}
+/*option format*/
+
+/*======================================================
+==========0.jeneral format~~~~~==========end============
+=======================================================*/
+#loader-bg {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 10000000;
+}
+#loader {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  margin-top: -100px;
+  margin-left: -100px;
+  text-align: center;
+  color: #fff;
+  z-index: 200000000000;
+}
+.content{
+  overflow:hidden;
+}

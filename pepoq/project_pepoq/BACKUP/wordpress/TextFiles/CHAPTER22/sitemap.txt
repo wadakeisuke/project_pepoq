@@ -1,0 +1,25 @@
+<h3><a href="[home_url]/">ホーム</a></h3>
+
+<h3><a href="[home_url]/business-outline/">事業内容</a></h3>
+
+<ul>
+	<li><a href="[home_url]/business-outline/manufacture-and-sale-of-furniture/">家具・照明器具の製造、販売</a></li>
+	<li><a href="[home_url]/business-outline/interior-coordinate/">インテリア・コーディネート</a></li>
+	<li><a href="[home_url]/business-outline/rental-green/">レンタル観葉植物</a></li>
+</ul>
+
+<h3><a href="[home_url]/products/">製品一覧</a></h3>
+
+<h3><a href="[home_url]/store-location/">店舗紹介</a></h3>
+
+<h3><a href="[home_url]/corporate/">会社案内</a></h3>
+
+<ul>
+	<li><a href="[home_url]/corporate/message/">社長のあいさつ</a></li>
+</ul>
+
+<h3><a href="[home_url]/contact/">お問い合わせ</a></h3>
+
+<h3><a href="[home_url]/information/">お知らせ一覧</a></h3>
+
+<h3><a href="[home_url]/blog/">ブログ</a></h3>

@@ -1,0 +1,65 @@
+@import "bootstrap_min.css";
+@import "bootstrap-responsive_min.css";
+@import "common.css";
+
+/* 縲後☆縺蝉ｽｿ縺医ｋ繝｡繝ｼ繝ｫ繝輔か繝ｼ繝�縲阪ヵ繧ｩ繝ｼ繝�逕ｨ繧ｹ繧ｿ繧､繝ｫ繧ｷ繝ｼ繝� */
+/* 縺薙�繝輔ぃ繧､繝ｫ縺ｧ Bootstrap 縺ｮ蛻晄悄險ｭ螳壹ｒ荳頑嶌縺阪＠縺ｦ縺�∪縺吶� */
+
+/* 鬆�岼繝倥Ν繝� */
+.form-horizontal .help-block {
+	margin-bottom: 5px;
+}
+.form-horizontal input + .help-block,
+.form-horizontal select + .help-block,
+.form-horizontal textarea + .help-block {
+  margin-top: 5px;
+}
+
+/* 蠢��磯��岼陦ｨ遉ｺ */
+.required span.required,
+.required abbr.required {
+	color: #b94a48;
+	font-weight: bold;
+}
+
+/* 騾ｲ謐励ヰ繝ｼ */
+ol.progress {
+	margin-left: 0;
+	height: 36px;
+}
+.progress li {
+	display: block;
+}
+.progress .bar
+{
+	padding-top: 8px;
+	font-size: 20px;
+}
+.progress .current {
+	font-weight: bold;
+}
+.progress li.progress-striped,
+.progress-striped .bar {
+  background-color: #126484;
+  background-image: -moz-linear-gradient(top, #149bdf, #126484);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#149bdf), to(#126484));
+  background-image: -webkit-linear-gradient(top, #149bdf, #126484);
+  background-image: -o-linear-gradient(top, #149bdf, #126484);
+  background-image: linear-gradient(to bottom, #149bdf, #126484);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff149bdf', endColorstr='#ff126484', GradientType=0);
+}
+
+/* 陬ｽ蜩∵ュ蝣ｱ */
+.prodinfo {
+	text-align: center;
+	margin: 20px auto;
+}
+
+/* 繝�Δ繝壹�繧ｸ逕ｨ縺ｮ隕句�縺� */
+fieldset h4 {
+	font-weight: normal;
+	border-bottom: 1px dotted #ccc;
+	padding-bottom: 0.3em;
+	margin-bottom: 0.8em;
+}

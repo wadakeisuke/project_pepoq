@@ -1,0 +1,83 @@
+@charset"utf-8";
+html,body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+}
+body {
+  color: #fff;
+  text-align: center;
+}
+/*begin header*/
+#pageall{
+  position: relative;
+  width: 100%;
+  min-width: 1000px;
+  height: 100%;
+  min-height: 100%;
+}
+header{
+ font-family: ‘Sacramento’, cursive;
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 0 auto;
+  margin:0 0 120px 0;
+  padding:10px;
+  background: rgba(0, 0, 0, 0.33);
+  -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.55), inset 0 -1px 0 rgba(255,255,255,0.09);
+  -moz-box-shadow: 0 1px 0 rgba(0,0,0,0.55), inset 0 -1px 0 rgba(255,255,255,0.09);
+  box-shadow: 0 1px 0 rgba(0,0,0,0.55), inset 0 -1px 0 rgba(255,255,255,0.09);
+  z-index: 101;
+}
+header h1{
+  position: absolute;
+  left: 0;
+  padding: 10px;
+  margin: 0;
+  color: white;
+}
+header img{
+  margin:0 10px 0 0;
+}
+/*end header*/
+a{
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: 0.8s;
+  -moz-transition: 0.8s;
+  -o-transition: 0.8s;
+  -ms-transition: 0.8s;
+  transition: 0.8s;
+}
+a:hover{
+  color: steelblue;
+}
+#content{
+  font-size: 20px;
+}
+#content h1{
+  font-size: 40px;
+}
+#login{
+ width:80px;padding:10px;background-color:gray;cursor:pointer;margin:0 auto;
+   border:solid 1px #a9a9a9;
+  -moz-border-radius: 1em;
+  -webkit-border-radius: 1em;
+  -o-border-radius: 1em;
+  -ms-border-radius: 1em;
+}
+#footer{
+  width: 100%;
+  padding-bottom: 100px;
+  background-color: ;
+  position: absolute;
+  bottom: 0;
+  color: #999;
+  color: rgba(255,255,255,.5);
+}
+
+
+

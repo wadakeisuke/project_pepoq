@@ -1,0 +1,14 @@
+.content_image{
+	width:100%;
+	height:100px;
+	clear:both;
+}
+.content_image img{
+	width:100%;
+	height:100px;
+}
+.content_image li{
+	width:25%;
+	height:100px;
+	float:left;
+}

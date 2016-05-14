@@ -1,0 +1,16 @@
+.friend_content{
+	padding-top:20px;
+}
+/*friend*/
+.fbox{
+width:90%;
+margin:0 5%;
+height:80px;
+background:white;
+}
+.fbox_img_item{height:70px;width:70px;}
+.fbox_img_item img{height:70px;width:70px;margin:5px 0 5px 5px}
+.fbox_name_item{height:70px;width:200px;padding-left:30px;line-height:80px;}
+.float_left{
+	float:left;
+}

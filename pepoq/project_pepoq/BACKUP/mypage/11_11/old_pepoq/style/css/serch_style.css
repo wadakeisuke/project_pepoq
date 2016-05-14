@@ -1,0 +1,142 @@
+a{
+  color: white;
+  text-decoration: none;
+  -webkit-transition: 0.8s;
+  -moz-transition: 0.8s;
+  -o-transition: 0.8s;
+  -ms-transition: 0.8s;
+  transition: 0.8s;
+}
+a:hover{
+  color: steelblue;
+}
+ul li{
+  list-style-type: none;
+}
+/*======================================！！！追加！！！==============================================*/
+/*begin friend_name */
+.friends_name input[type=submit]{
+  background-color: rgba(20,20,20,0.8);
+  color:red;
+  height: 30px;
+  width: 200px;
+  font-size:20px;
+  color: white;
+  text-decoration: none;
+  border-style: none;
+  outline: none;
+}
+input[type=submit]:hover{
+  cursor: pointer;
+}
+/*end friend_name */
+/*<tuika>*/
+#content{
+  
+  width:100%;
+  height:100%;
+  margin:0;
+  padding: 120px 0px 50px 0px;
+}
+/*<tuika>*/
+#no_friends{
+  color:white;
+  height:100px;
+  text-align:center;
+  background-color:rgba(20,20,20,0.5);
+  width:1000px;
+  margin:0 auto;
+}
+#friends_all{
+padding-top:50px;
+font-family: ‘Sacramento’, cursive,"Times New Roman", "游明朝", YuMincho, "Hiragino Mincho ProN", Meiryo, serif;/*<tuika>*/
+}
+.fbox{
+position:relative;
+margin-left: auto:
+margin-right:auto;
+margin-top: 30px;
+margin-left: 30px;
+float:left;
+background: white;
+border-bottom:solid 1px rgba(20,20,20,0.4);
+border-right:solid 1px rgba(20,20,20,0.4);
+}
+html,body{
+  color:white;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+#page_all{
+  min-width:1200px;
+  position: relative;
+}
+
+/*======================================Begin header================================================*/
+
+/*======================================End header================================================*/
+#upper_content
+{
+  max-width:1200px;
+  margin-top:60px;
+  padding-bottom:50px;
+  margin-left:auto;
+  margin-right: auto;
+  background: ;
+}
+hr{
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+/*serch friend format*/
+#friend_s{
+  padding:10px 0px;
+  height:60px;
+
+  text-align:center;
+}
+#freind_s hr{
+  border-style: dashed;
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+#friend_s input{
+  background-color:white;
+  width:300px;height:20px;
+
+  font-size:18px;
+  margin-top:10px;
+}
+#friend_s h3{
+  text-align:center;
+}
+#friend_s input[type="text"]:focus{
+  color:gray;
+  outline: 0;
+  border-color: skyblue;
+}
+/*end serch friend format*/
+#serch_result{
+
+  max-width:1070px;width:1070px;min-height: 700px;
+  padding:20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:;
+}
+/*serch_result format*/
+/*begin footer*/
+#copyright{
+  font-family: Meiryo, serif;
+  background-color: rgba(20, 20, 20, 1);
+  font-size:18px;
+  width:100%;
+  text-align:center;
+}
+/*end footer*/

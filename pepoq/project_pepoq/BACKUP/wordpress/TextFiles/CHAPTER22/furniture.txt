@@ -1,0 +1,39 @@
+<p class="alignright">
+	<img src="[image_path]" alt="" title="" width="220" height="136" />
+</p>
+<p class="large serif">みんなが自然と笑顔になれる家具を作っています。</p>
+
+私たちが作る家具には、一般家庭用はもちろん、オフィス向けの製品も多数あります。現在店頭のみの販売となっておりますが、ぜひショールームの方にお越しいただき、私たちの家具に触れていただければ嬉しく思います。
+
+<div class="box-full">
+<div class="hgroup">
+<h4 class="product">製品一覧</h4>
+<h5>products</h5>
+</div>
+<img src="[image_path]" alt="" title="製品一覧" width="175" height="117" class="alignright" />
+
+当社の様々な家具・照明器具をご覧をご覧頂けます。「緑と笑顔」をコンセプトにした家具たちを、ぜひご覧ください。
+
+<a href="../products/">製品一覧</a>
+</div>
+
+<div class="box-half left">
+<div class="hgroup">
+<h4 class="office">オフィス</h4>
+<h5>office</h5>
+</div>
+<a href="../../roomtype/office/"><img src="[image_path]" alt="" title="office" width="95" height="62" /></a>
+
+オフィス向けの家具
+
+</div>
+
+<div class="box-half right">
+<div class="hgroup">
+<h4 class="store">店舗紹介</h4>
+<h5>store location</h5>
+</div>
+
+<a href="../store-location/"><img src="[image_path]" alt="" title="店舗紹介" width="95" height="62" /></a>
+
+</div>

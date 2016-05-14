@@ -1,0 +1,39 @@
+.question_all{
+	width:100%;
+
+	position:relative;
+	background:gray;
+	padding-bottom:500px;
+}
+.question_box{
+	margin:50px 5%;
+	width:90%;
+	background:white;
+	clear:both;
+}
+.question_img_item{
+	width:50px;
+	height:50px;
+}
+.question_img_item img{
+	width:50px;
+	height:50px;
+}
+.question_name_item{
+	height:50px;
+}
+.question_text_item{
+	clear:both;
+}
+.question_button{
+
+}
+.question_button ul{
+
+}
+.question_button li{
+	float:left;
+	width:50%;
+	background:white;
+	text-align: center;
+}

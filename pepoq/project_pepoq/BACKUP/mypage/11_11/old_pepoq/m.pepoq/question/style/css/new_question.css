@@ -1,0 +1,256 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+/*bigin jeneral setting*/
+@charset="utf-8";
+*{padding:0;margin:0;-webkit-appearance: none;}
+html,body{
+  margin:0 0 0 0;
+  padding:0 0 0 0;
+  font-family: 'Noto Sans Japanese', sans-serif;
+  color:#575757;
+  -webkit-appearance: none;
+}
+i{
+  color:#34495e;
+}
+a{
+  color: #ccc;
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul li{
+  list-style-type: none;
+}
+hr{
+  border-style: dashed;
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+textarea{
+  resize:none;
+}
+.g_f{float:left;}
+.g_clear{clear:both;}
+.f_float{float:left;}
+.clear{clear:both;}
+/*end jeneral setting*/
+#page_all{
+}
+#upper_content{
+  margin-top:80px;
+  width:100%;
+  height: 100%;
+  line-height:1.8;
+}
+/*bigin H E A D E R*/
+header{
+  width:100%;
+  height:100%;
+  height:60px;
+  background:white;
+  top:0;
+  margin-top:0px;
+  padding:0px;
+  position:fixed;
+  z-index:999999999999999999;
+}
+.logo p{
+  text-align:center;
+  padding:5px;
+  margin:0;
+}
+.tophead{
+  width:100%;
+  height:30px;
+    margin-top:0px;
+}
+/*end H E A D E R*/
+/*bigin edit link*/
+#edit_question{
+  margin-top:50px;
+  width: 100%;
+  height:100%;
+  text-align: center;
+  padding:0px 0 20px 0;
+  display:none;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.link_edit{
+  width: 96%;
+  margin:2%;
+  height:40px;
+  background-color: rgba(255,255,255,0.8);
+}
+.link_edit span{
+  line-height:40px;
+  color:#34495e;
+}
+.link_edit i{
+  font-size:20px;
+  line-height:40px;
+}
+.add_btnq {
+  border:none;
+  -webkit-appearance:none; 
+  background:#34495e;
+  width:30%;
+  height:30px;
+  color:white;
+  margin:8%;
+}
+.add_btnq i{
+  color:white;
+  font-size:14px;
+}
+/*end edit link*/
+
+/*bigin box*/
+.box {/*いらないんじゃねwwwwwww*/
+  background-color: rgba(20, 20, 20, 0.5);
+  width: 90%;
+  margin:0 auto;
+  padding:0px;
+}
+.fbox{
+  position:relative;
+  width:90%;
+  margin-left:5%;
+  margin-right:5%;
+  height:100%;
+  background: rgba(255,255,255,0.5);
+  margin-bottom:25px;
+}
+#friends_all{
+  width:100%;
+  margin-top:20px;
+  margin-bottom:20px;
+  clear:both;
+}
+/*bigin popup_window*/
+.popup_window{
+  position:relative;
+  width: 100%;
+  min-width: 100%;
+  height: 100%;
+  min-height: 100%;
+  text-align: center;
+  padding:0px 0 20px 0;
+  margin:0px;
+  display:none;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.modal_close{ 
+  position: absolute;
+  top: 25px;
+  right:20px;
+  display: block; 
+  width: 20px;
+  height: 20px; 
+  z-index:2;
+  background-repeat: no-repeat;
+  background-image:url("../../img/batu.gif");
+}
+#lean_overlay {
+z-index: 1000;
+top: 0px;
+left: 0px;
+height:100%;
+width:100%;
+background: #005;
+display: none;
+}
+.ballon_edit_box{
+  width:100%;
+  height:100%;
+}
+.fr_question_textarea{
+  border:none;
+  height:70px;
+  margin:8%;
+  margin:8%;
+  width:84%;
+  -webkit-appearance:none; 
+}
+/*end popup_window*/
+
+/*begin Question*//*将来的には消したいんですよねwwwwwwww*/
+.question_item{
+  margin-left:5%;
+  margin-right:5%;
+  width:90%;
+  padding-top:20px;
+}
+.ballon{
+  margin:10px 10px 0;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+.ballon-item{
+  min-height:50px;
+  margin:15px 0 0;
+  position:relative;
+}
+.ballon-image{
+  position:absolute;
+  top:0;
+  left:0;
+  border-radius:4px;
+  overflow:hidden;
+}
+.is-reverse .ballon-image{
+  left:auto;
+  right:0;
+}
+.ballon-image img{
+  vertical-align:bottom;
+}
+.ballon-text{
+  padding:0px;
+  width:70%;min-width:180px;word-wrap:break-word;
+  height:100%;
+  border-radius:4px;
+  border:1px solid #757575;
+  margin:0 0 0 70px;
+  position:relative;
+}
+.is-reverse .ballon-text{
+  margin:0 70px 0 0;
+}
+.ballon-text:before,.ballon-text:after{
+  position:absolute;
+  top:15px;
+  content:'';
+}
+.ballon-text:before{
+  left:-20px;
+  border:10px solid transparent;
+  border-right-color: #757575;
+}
+.is-reverse .ballon-text:before{
+  left:auto;
+  right:-20px;
+  border-right-color:transparent;
+  border-left-color: #757575;
+}
+.ballon-text:after{
+  left:-19px;
+  border:10px solid transparent
+  border-left-color:#fff;
+}
+.is-reverse .ballon-text:after{
+  left:auto;
+  right:-19px;
+    border-right-color:transparent;
+    border-left-color:#fff;
+}
+.ballon-text p{
+  line-height:16px;
+  font-size:14px;
+}
+/*end Question*/
+

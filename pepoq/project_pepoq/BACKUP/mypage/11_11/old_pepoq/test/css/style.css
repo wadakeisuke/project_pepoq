@@ -1,0 +1,174 @@
+*{padding:0;margin:0;list-style-type:none;	-webkit-appearance: none;}
+.float_left{float:left;}
+.pageall{
+	height:100%;
+	width:100%;
+	background:gray;
+	position:relative;
+}
+/*bigin header*/
+.header_content{
+	width:100%;
+	height:50px;
+	background:white;
+	position:fixed;
+	z-index:9999;
+}
+.header_add_user{	
+	height:50px;
+	width:10%;
+}
+.header_logo{
+	height:50px;
+	width:70%;
+}
+.header_search{	
+	height:50px;
+	width:10%;
+}
+.header_side_menu{	
+	height:50px;
+	width:10%;
+}
+.header_icon_text{
+	text-align:center;
+	margin-top:15px;
+}
+i.header_icon{
+	font-size:20px;
+	color:#757575;
+	text-align:center;
+}
+/*end header*/
+
+/*bigin search menu*/
+.search-boxs{
+	background:#bdc3c7;
+	position:absolute;
+	bottom:60px;
+	height:50px;
+	width:100%;
+	z-index:10;
+	position:fixed;
+}
+.search-boxs input[type="text"]{
+	width:80%;
+	margin-left:5%;
+	margin-top:5px;
+	height:40px;
+	border:none;
+	border-radius:0;
+	background:;
+}
+.search-boxs button[type="submit"]{
+	color:#757575;
+	font-size:16px;
+	width:10%;
+	height:40px;
+	margin-top:5px;margin-right:5%;
+	border:none;
+	position:absolute;
+	border-radius:0;
+
+}
+/*end search menu*/
+
+/*bigin tab menu*/
+.tab_menu{
+	position:absolute;
+	bottom:0;
+	width:100%;
+	height:60px;
+	z-index:10;
+	position:fixed;
+}
+.tab_menu_li{
+	width:25%;
+	height:60px;
+	float:left;
+	background:white;
+	text-align:center;
+}
+.tab_menu_icon{
+	font-size:20px;
+	margin-top:20px;
+	color:#757575;
+}
+
+/*end tab menu*/
+
+
+/*begin content*/
+.content{
+	position:absolute;
+	top:50px;
+	width:100%;
+	height:100%;
+}
+
+/*wakeru*/
+.content_image{
+	width:100%;
+	height:100px;
+	clear:both;
+}
+.content_image img{
+	width:100%;
+	height:100px;
+}
+.content_image li{
+	width:25%;
+	height:100px;
+	float:left;
+}
+.question_all{
+	width:100%;
+	height:100%;
+	position:relative;
+	background:gray;
+	padding-bottom:500px;
+}
+.question_box{
+	margin:50px 5%;
+	width:90%;
+	background:white;
+	clear:both;
+}
+.question_img_item{
+	width:50px;
+	height:50px;
+}
+.question_img_item img{
+	width:50px;
+	height:50px;
+}
+.question_name_item{
+	height:50px;
+}
+.question_text_item{
+	clear:both;
+}
+.question_button{
+
+}
+.question_button ul{
+
+}
+.question_button li{
+	float:left;
+	width:50%;
+	background:white;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,132 @@
+<div class="grid_3">
+	<div class="hgroup">
+		<h2 id="bannar">グリーンコーポレーションの3つの事業</h2>
+		<h3 class="subtitle center-align">BUSINESS OUTLINE</h3>
+	</div>
+		<p style="padding-top:5px;">
+		<img src="[image_path img="message"]" alt="グリーンコーポレーションは「緑と笑顔」を合い言葉に、3つの事業を行っています。" title="グリーンコーポレーションは「緑と笑顔」を合い言葉に、3つの事業を行っています。" width="220" height="54" class="ie" />
+		</p>
+</div>
+
+<div class="grid_6">
+	<article id="business-outline-1" class="box-link">
+		<div class="hgroup">
+			<h3>家具・照明器具製造・販売</h3>
+			<h4 class="subtitle">MANUFACTURE AND SALE OF FURNITURE</h4>
+		</div>
+		<img src="[image_path]" alt="" title="家具・証明器具" width="190" height="120" />
+		<p>人と環境に優しい家具作りに、毎日励んでいます。緑と自然を愛する私たちは、環境を大切にしています。</p>
+		<p><a class="link" href="./business-outline/manufacture-and-sale-of-furniture/">続きを読む</a></p>
+	</article>
+
+	<article id="business-outline-2" class="box-link">
+		<div class="hgroup">
+			<h3>インテリア・コーディネート</h3>
+			<h4 class="subtitle">INTERIOR COORDINATE</h4>
+		</div>
+		<img src="[image_path]" alt="" title="インテリア" width="190" height="120" />
+		<p>インテリア・コーディネーターの資格を待つスタッフが、あなたのお部屋をコーディネートいたします。</p>
+		<p><a class="link" href="./business-outline/interior-coordinate/">続きを読む</a></p>
+	</article>
+</div>
+
+<div class="grid_3">
+	<article id="business-outline-3" class="box-link">
+		<div class="hgroup">
+			<h3>レンタル観葉植物</h3>
+			<h4 class="subtitle">RENTAL GREEN</h4>
+		</div>
+		<img src="[image_path]" alt="" title="観葉植物" width="194" height="120" />
+		<p>オフィスやお店に観葉植物を置いてみませんか？貴社のイメージアップの為に、インテリアのプロがじっくりご相談を承ります。</p>
+		<p><a class="link" href="./business-outline/rental-green/">続きを読む</a></p>
+	</article>
+</div>
+
+<div class="grid_12 page-title-wrap">
+	<div class="hgroup" id="page-title">
+		<h2>製品一覧</h2>
+		<h3>products</h3>
+	</div>
+</div>
+
+<div class="grid_4">
+	<article class="products box-link" id="product-living">
+		<div class="hgroup">
+			<h3>リビングルーム</h3>
+			<h4 class="subtitle">LIVING ROOM</h4>
+		</div>
+		<img src="[image_path img='square']" alt="" title="リビング" width="120" height="120" />
+		<p>家族が集う、くつろぎの空間を。</p>
+		<p><a class="link" href="./roomtype/living/">続きを読む</a></p>
+	</article>
+</div>
+
+<div class="grid_4">
+	<article class="products box-link" id="product-dining">
+		<div class="hgroup">
+			<h3>ダイニング</h3>
+			<h4 class="subtitle">DINING</h4>
+		</div>
+		<img src="[image_path img='square']" alt="" title="ダイニング" width="120" height="120" />
+		<p>家族のコミュニケーションを大切にしたい場所だから ...</p>
+		<p><a class="link" href="./room-type/dining/">続きを読む</a></p>
+	</article>
+</div>
+
+<div class="grid_4">
+	<article class="products box-link" id="product-bedroom">
+		<div class="hgroup">
+			<h3>ベッドルーム</h3>
+			<h4 class="subtitle">BED ROOM</h4>
+		</div>
+		<img src="[image_path img='square']" alt="" title="ベッドルーム" width="120" height="120" />
+		<p>一日の疲れを癒す、安らぎのインテリア。</p>
+		<p><a class="link" href="./roomtype/bedroom/">続きを読む</a></p>
+	</article>
+</div>
+
+<div class="grid_4">
+	<article class="products box-link" id="product-bathroom">
+		<div class="hgroup">
+			<h3>バスルーム</h3>
+			<h4 class="subtitle">BATH ROOM</h4>
+		</div>
+		<img src="[image_path img='square']" alt="" title="バスルーム" width="120" height="120" />
+		<p>疲れを取る場所だからこそ、快適な空間作り。</p>
+		<p><a class="link" href="./roomtype/bathroom/">続きを読む</a></p>
+	</article>
+</div>
+
+<div class="grid_4">
+	<article class="products box-link" id="product-japanese">
+		<div class="hgroup">
+			<h3>和室</h3>
+			<h4 class="subtitle">JAPANESE</h4>
+		</div>
+		<img src="[image_path img='square']" alt="" title="和室" width="120" height="120" />
+		<p>日本人の肌に合う、和のインテリアのご提案。</p>
+		<p><a class="link" href="./roomtype/japanese/">続きを読む</a></p>
+	</article>
+</div>
+
+<div class="grid_4">
+	<article class="products-s box-link" id="product-office">
+		<div class="hgroup">
+			<h3>オフィス</h3>
+			<h4 class="subtitle">OFFICE</h4>
+		</div>
+		<p>気持ちよく仕事ができるワークスペース。</p>
+		<p class="hidden"><a class="link" href="./roomtype/office/">続きを読む</a></p>
+	</article>
+</div>
+
+<div class="grid_4">
+	<article class="products-s box-link" id="product-others">
+		<div class="hgroup">
+			<h3>その他</h3>
+			<h4 class="subtitle">OTHERS</h4>
+		</div>
+		<p>照明、ルームアクセサリーなど。</p>
+		<p class="hidden"><a class="link" href="./roomtype/others/">続きを読む</a></p>
+	</article>
+</div>

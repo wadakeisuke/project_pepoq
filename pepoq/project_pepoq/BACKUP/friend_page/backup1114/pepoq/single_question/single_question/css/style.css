@@ -1,0 +1,220 @@
+.content{
+	padding-top:60px;
+	background-color:#DCDCDC;
+	height:100%;
+
+}
+/*======================================================
+==========3.question normal box==========start==========
+=======================================================*/
+/*question box*/
+.question_box{
+	clear:both;
+	background-color:white;
+	width:96%;
+	margin:0 2%;
+	border-bottom:solid 1px #DCDCDC;
+	margin-bottom:10px;
+	border-radius:3px;
+}
+.question_format{
+	padding:7px;
+}
+.item_li_1{
+	width:75%;
+	height:30px;
+	background:white;
+	font-size:12px;
+}
+.item_li_2{
+	width:25%;
+	height:30px;
+	background:white;
+	font-size:12px;
+}
+.question_item{
+	background:white;
+	height:25px;
+	width:90%;
+	margin:0 5%;
+}
+.question_user{
+	clear:both;
+	background-color:bcompiler_write_included_filename(filehandle, filename);
+	height:50px;
+	color:#757575;
+}
+.group_name{
+	border:solid 1px #FFF4F4;
+	border-radius: 7px;
+	padding:3px;
+	background-color:#FFF4F4;
+	color: #FF5959;
+}
+.question_text{
+	clear:both;
+	padding:5px 0;
+	width:96%;
+	margin:0 2%;
+	background-color:white;
+	min-height:50px;
+}
+.question_menu{
+	background-color:white;
+	height:30px;
+	color:gray;
+	padding-top:10px;
+	border-top:dotted 1px #DCDCDC;
+}
+/*question box*/
+/*question user infomation*/
+.user_box{
+	clear:both;
+	width:96%;
+	height:60px;
+	margin:0 2%;
+	padding-bottom:10px;
+	background:white;
+	border-bottom:dotted 1px #DCDCDC;
+}
+.user_images{
+	width:30%;
+	height:60px;
+	background:white;
+	text-align:center;
+}
+.user_images img{
+	width:60px;
+	height:60px;
+	border:none;
+}
+.user_item{
+	width:56%;
+	height:60px;
+	background:white;
+}
+.user_name{
+	width:95%;
+	padding-left:5%;
+	background:white;
+	color:gray;
+}
+/*question user infomation*/
+/*question box menu*/
+.question_menu_li{
+	float:left;
+	width:25%;
+	height:30px;
+}
+.s_question_menu_li{
+	float:left;
+	width:50%;
+	height:30px;
+	text-align:center;
+}
+.menu_format{
+	width:100%;
+	font-size:12px;
+	height:15px;
+}
+.left_li{text-align:left;}
+.right_li{text-align:right;}
+/*question box menu*/
+
+/*======================================================
+==========3.question normal box==========end============
+=======================================================*/
+
+/*======================================================
+==========5.answer format==============start============
+=======================================================*/
+.answer_box{
+	width:96%;
+	height:150px;
+	background:white;
+	margin:0 2%;
+	margin-bottom:10px;
+	border-radius:3px;
+}
+.answer_format{
+	width:100%;
+	text-align:center;
+	padding-top:10px;
+}
+.answer_format_box{
+	width:100%;
+	height:40px;
+	padding-top:10px;
+}
+.answer_item{
+	float:left;
+    width: 40%;
+    margin: 0px 5%;
+    height: 30px;
+    border-radius: 3px;
+    font-size: 14px;
+    line-height: 30px;
+  	vertical-align:middle;
+}
+
+.answer_item input[type=submit]{
+	border:none;
+	-webkit-appearance:none;
+	line-height:30px;
+	color:white;
+	font-size: 14px;
+}
+.answer_item input[type=checkbox]{
+	vertical-align:middle;
+	-webkit-appearance:checkbox;
+}
+.answer-btn1{
+	background:#ecf0f1;
+	color: #757575;
+}
+.answer-btn2{
+	background:#d61e44;
+	color:white;
+}
+.input-item {
+    width:60%;
+    margin:20px 20% 30px;
+    height:30px;
+    background: #ecf0f1;
+    border-radius:3px;
+    /*color: #757575;*/
+    font-size: 12px;
+    line-height: 30px;
+}
+
+/*not login*
+.non_login_filter{
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+  user-select:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -khtml-user-select:none;
+  -webkit-user-drag:none;
+  -khtml-user-drag:none;
+}
+.answer_box_not{
+	width:96%;
+	background:#ecf0f1;
+	margin:0 2%;
+	margin-bottom:10px;
+	border-radius:3px;
+}
+.answer-btn3{
+	background:#3498db;
+	color: white;
+}
+.answer-btn4{
+	background:#d61e44;
+	color:white;
+}
+*/
+/*======================================================
+==========5.answer format==============end==============
+=======================================================*/
+

@@ -1,0 +1,217 @@
+.content{
+	padding-top:75px;
+	background-color:#DCDCDC;
+	height:100%;
+
+}
+#single_question{
+	margin:0 auto;
+	background-color:#DCDCDC;
+	position:relative;
+	width:100%;
+	border-bottom:solid 1px #DCDCDC;
+}
+#question_content{
+	width:95%;margin:0 auto;
+}
+.comment_date{
+	position:absolute;
+	top:0;
+	right:10px;
+	color:gray;
+}
+.user_image{
+	float:left;width:20%;height:100%;padding-top:10px;
+}
+#user_question{
+	width:80%;height:100%;float:left;padding-bottom:30px;
+}
+#user_question_content{
+	width:95%;margin:0 auto;
+}
+#user_name{
+	height:40px;padding-top:10px;
+}
+.group_name{
+	border:solid 1px #FFF4F4;
+	border-radius: 7px;
+	padding:3px;
+	background-color:#FFF4F4;
+	color: #FF5959;
+}
+/**/
+.f_f{float:left;}
+.group_name{
+border:solid 1px #FFF4F4;
+border-radius: 7px;
+padding:3px;
+background-color:#FFF4F4;
+color: #FF5959;
+}
+
+.question_box{
+	clear:both;
+	background-color:white;
+	width:96%;
+	margin:0 2%;
+	border-bottom:solid 1px #DCDCDC;
+	margin-bottom:10px;
+	border-radius:3px;
+}
+.question_format{
+	padding:7px;
+}
+.item_li{
+	width:50%;
+	height:30px;
+	background:white;
+}
+.question_item{
+	background:white;
+	height:25px;
+	width:90%;
+	margin:0 5%;
+}
+.question_user{
+	clear:both;
+	background-color:bcompiler_write_included_filename(filehandle, filename);
+	height:50px;
+	color:#757575;
+}
+.question_text{
+	clear:both;
+	padding:5px 0;
+	width:96%;
+	margin:0 2%;
+	background-color:white;
+	min-height:50px;
+}
+.question_menu{
+	background-color:white;
+	height:30px;
+	color:gray;
+	border-top:dotted 1px #DCDCDC;
+}
+/*ba;klhgaejg:ipaqjgraklva:p*/
+/*user*/
+.user_box{
+	clear:both;
+	width:96%;
+	height:60px;
+	margin:0 2%;
+	background:white;
+	border-bottom:dotted 1px #DCDCDC;
+}
+.user_images{
+	width:30%;
+	height:60px;
+	background:white;
+	text-align:center;
+}
+.user_images img{
+	width:50px;
+	height:50px;
+	margin:5px;
+	border:none;
+}
+.user_item{
+	width:56%;
+	height:60px;
+	background:white;
+}
+.user_name{
+	width:95%;
+	padding-left:5%;
+	background:white;
+	color:gray;
+}
+.question_menu{
+
+}
+.question_menu_li{
+	float:left;
+	width:25%;
+	height:30px;
+}
+.s_question_menu_li{
+	float:left;
+	width:50%;
+	height:30px;
+}
+.menu_format{
+	width:100%;
+	font-size:12px;
+	height:15px;
+}
+.left_li{
+	text-align:left;
+}
+.right_li{
+	text-align:right;
+}
+/*ba;klhgaejg:ipaqjgraklva:p*/
+
+
+/*回答フォーム*/
+.answer_box{
+	width:96%;
+	height:100%;
+	background:white;
+	margin:0 2%;
+	margin-bottom:10px;
+	border-radius:3px;
+}
+.answer_format{
+	width:100%;
+	text-align:center;
+	padding-top:10px;
+
+
+}
+/*回答フォーム*/
+
+/*回答一覧*/
+/*
+.clear_both{clear:both;}
+.responce{
+	background:red;
+}
+.re_user_images{
+	width:25%;
+	height:100%;
+	background:red;
+	text-align:center;
+}
+.re_user_images img{
+	width:50px;
+	height:50px;
+	margin:5px;
+	border:none;
+}
+.re_user_item{
+	width:56%;
+	height:100%;
+	background:#cdcdcd;
+}
+.re_user_name{
+	width:100%;
+	background:green;
+	color:gray;
+}
+.re_user_box{
+	clear:both;
+	width:96%;
+	height:60px;
+	margin:0 2%;
+	background:pink;
+	border-bottom:dotted 1px #DCDCDC;
+}
+.re_question_text{
+	padding:5px 0;
+	width:96%;
+	margin:0 2%;
+	background-color:yellow;
+	min-height:50px;
+}
+/*回答一覧*/
+

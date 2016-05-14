@@ -1,0 +1,37 @@
+
+/*bigin search menu*/
+.friend_search-boxs{
+	background:#bdc3c7;
+	position:absolute;
+	top:50px;
+	height:50px;
+	width:100%;
+	z-index:10;
+	position:fixed;
+}
+.friend_search-boxs input[type="text"]{
+	width:80%;
+	margin-left:5%;
+	margin-top:5px;
+	height:40px;
+	border:none;
+	border-radius:0;
+	background:;
+}
+.friend_search-boxs button[type="submit"]{
+	color:#757575;
+	font-size:16px;
+	width:10%;
+	height:40px;
+	margin-top:5px;margin-right:5%;
+	border:none;
+	position:absolute;
+	border-radius:0;
+
+}
+/*end search menu*/
+.question_search_result{
+	top:70px;
+	position:absolute;
+	height:100%;
+}

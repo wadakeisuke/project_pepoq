@@ -1,0 +1,21 @@
+<div class="alignright">
+	<img src="[image_path]" alt="" title="" width="220" height="136" />
+</div>
+
+<p class="large serif">癒しを与えられる空間作り</p>
+
+当社では家具の製造だけでなく、資格を持ったインテリア・コーディネーターがお客様のお宅に実際にお伺いし、快適な空間作りをサポート。お客様のイメージを形にすることで、快適なライフスタイル作りを応援します。
+
+また、お客様のライフスタイルにあわせ、当社の製品のご提案もさせていただきます。
+
+<div class="box-full">
+<div class="hgroup">
+	<h4 class="product">製品一覧</h4>
+	<h5>products</h5>
+</div>
+	<img src="[image_path]" alt="" title="製品一覧" width="175" height="117" class="alignright" />
+
+	当社の様々な家具・照明器具の中から、お客様のライフスタイルにあった家具をご提案させていただきます。
+
+	<a href="[home_url]/products/">製品一覧</a>
+</div>

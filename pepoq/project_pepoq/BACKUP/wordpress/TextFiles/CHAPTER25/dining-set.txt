@@ -1,0 +1,15 @@
+<p class="alignleft"><img src="[image_path]" alt="" title="ダイニングセット" width="292" height="191" /></p>
+
+ダイニングは家族が最も揃う場所。だからこそ長く居たくなる、笑顔が自然と出るような空間にしたいものです。
+
+グリーンコーポレーションのダイニングセットは、座り心地とテーブルの肌触りにこだわりました。テーブルには天然ナラ材を使用。椅子には座カバーが付いており、ドライクリーニングも可能です。
+
+<table>
+<tr><th colspan="2" class="head">テーブル</th></tr>
+<tr><th>サイズ</th><td>150 x 80 x 70cm</td></tr>
+<tr><th>素材</th><td>ナラ材</td></tr>
+<tr><th colspan="2" class="head">チェア</th></tr>
+<tr><th>サイズ</th><td>51 x 54 x 77cm</td></tr>
+<tr><th>素材</th><td>ナラ材、布</td></tr>
+<tr><th>価格</th><td>159,000円（テーブル、チェア 4脚）</td></tr>
+</table>

@@ -1,0 +1,442 @@
+/*jeneral setting*/
+@charset="utf-8";
+html,body{
+  margin:0 0 0 0;
+  padding:0 0 0 0;
+  font-family: ‘Sacramento’, cursive,"Times New Roman", "游明朝", YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+  color:white;
+}
+i{
+  color:steelblue;
+}
+a{
+  color: #ccc;
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul li{
+  list-style-type: none;
+}
+hr{
+  border-style: dashed;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+textarea{
+  resize:none;
+}/*
+button{
+  position: absolute;
+  right: 100px;
+  color: gray;
+  cursor: pointer;
+  font-weight: bold;
+  border-style: none;
+  box-shadow: 2px 2px 3px 1px #666;
+  -moz-box-shadow: 2px 2px 3px 1px #666;
+  -webkit-box-shadow: 2px 2px 3px 1px #666;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  font-size: 1em;
+ padding: 7px 10px;
+}*/
+select{
+   border-radius: 5px;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -o-border-radius: 5px;
+   -ms-border-radius: 5px;
+   border:#a9a9a9 1px solid;
+   -moz-box-shadow: inset 0 0 5px rgba(0,0,0,0.2),0 0 2px rgba(0,0,0,0.3);
+   -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2),0 0 2px rgba(0,0,0,0.3);
+   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2),0 0 2px rgba(0,0,0,0.3);
+   width:100px;
+   height:25px;
+   padding:0 3px;
+}
+textarea{
+     border-radius: 5px;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -o-border-radius: 5px;
+   -ms-border-radius: 5px;
+   border:#a9a9a9 1px solid;
+   -moz-box-shadow: inset 0 0 5px rgba(0,0,0,0.2),0 0 2px rgba(0,0,0,0.3);
+   -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2),0 0 2px rgba(0,0,0,0.3);
+   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2),0 0 2px rgba(0,0,0,0.3);
+   width:;
+   height:200px;
+}
+input[type=submit]{
+   border-radius: 5px;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -o-border-radius: 5px;
+   -ms-border-radius: 5px;
+   border:#a9a9a9 1px solid;
+   -moz-box-shadow: inset 0 0 5px rgba(0,0,0,0.2),0 0 2px rgba(0,0,0,0.3);
+   -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2),0 0 2px rgba(0,0,0,0.3);
+   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2),0 0 2px rgba(0,0,0,0.3);
+   width:;
+   height:30px;
+   padding:0 3px;
+   cursor:pointer;
+   color:#333;
+   font-weight:bold;
+   background:#f5f5f5;
+   text-shadow:1px 1px 0px #fff;"
+}
+/*jeneral setting*/
+/*共通スタイル*/
+
+#page_all{
+  background-color: rgba(20, 20, 20, 0.3);
+}
+header{
+  width:100%;
+  height:100%;
+  height:60px;
+  background:white;
+  top:0;
+  margin-top:0px;
+  padding:0px;
+  position:fixed;
+  z-index:999999999999999999;
+}
+.logo p{
+  text-align:center;
+  padding:5px;
+  margin:0;
+}
+.tophead{
+  width:100%;
+  height:30px;
+    margin-top:0px;
+}
+#upper_content{
+  margin-top:80px;
+  width:100%;
+  line-height:1.8;
+}
+#upper_content strong{
+  font-size: 18px;
+}
+#upper_content strong{
+  font-size: 15px;
+}
+.link_edit{
+  width: 100%;
+  height:40px;
+  color: #65817a;
+  margin-top:20px;
+  background-color: rgba(20, 20, 20, 0.8);
+}
+.link_edit span{
+  line-height:40px;
+}
+.link_edit i{
+  font-size:20px;
+  line-height:40px;
+}
+/*共通スタイル*/
+
+.box {
+  background-color: rgba(20, 20, 20, 0.5);
+
+  width: 100%;
+  margin:10px 0;
+  padding:0px;
+}
+
+.data_title{
+  font-size:20px;
+  padding-left:15px;
+}
+.data{
+  margin-left: 8px;
+}
+/*begin userinfomation*/
+
+/*begin social icon*/
+.social_icons{
+    background:#005;
+    opacity:0.9;
+}
+.social_icons ul li{
+  float:left;
+  width:25%;
+  text-align:center;
+  background:white;
+}
+.social_icons i{
+  height:60px;
+  font-size:30px;line-height:60px;
+  color:black;
+
+}
+/*end social icon*/
+
+/*begin thumnail*/
+#thumbnail{
+  margin-bottom:0px;
+  width:100%;
+  margin-left:0px;margin-right:0px;
+  text-align:center;
+  padding-top:10px;
+  background:#005;
+  background: rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.44);
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.44);
+
+}
+#thumbnail img{
+  -moz-border-radius: 5px;    /* Firefox */
+  -webkit-border-radius: 5px; /* Safari,Chrome */
+  border-radius: 5px;    
+  border:solid 3px white;
+  width: 120px;
+  height: 120px;
+
+}
+/*user*/
+.user{
+  width:100%;
+  height:100%;
+
+  margin-top:0px;
+}
+/*begin user_name*/
+
+.user_name{
+  text-align:center;
+  margin-top:0px;
+  font-size:20px;
+  line-height:40px;
+  height:40px;
+  width:100%;
+}
+.user_name p{
+  margin:0px;
+  padding:0px
+}
+/*end user_name*/
+/*end user infomation*/
+
+/*begin comment*/
+#comment p{
+  padding: 25px;
+  color: white;
+  font-weight: bold;
+}
+/*end comment*/
+
+/*begin basic_data*/
+#basic_data{
+  padding-top: 10px;
+}
+#basic_data ul{
+  padding-bottom: 10px;
+}
+#basic_data ul li{ 
+  font-size: 16px;
+  color: white;
+  text-overflow: ellipsis;   
+  text-overflow: clip; 
+  overflow: hidden; 
+  text-overflow: ellipsis;    
+  -webkit-text-overflow: ellipsis; 
+  -o-text-ometa-nav-preverflow: ellipsis; 
+  margin:0;
+  padding:0;
+  max-width:;
+  background-color:;
+}
+/*end basic_data*/
+
+/*begin love_and_likes*/
+#love_and_likes{
+  padding-top:10px;
+}
+#love_and_likes ul li{
+}
+/*end love_and_likes*/
+
+/*begin links*/
+#links{
+  padding-top:10px;
+}
+#links ul li{
+  font-size:12px;
+}
+/*end links*/
+
+/*start lower content*/
+/*freind*/
+.f_float{
+  float:left;
+}
+#lower_content{
+  width:100%;
+  background-color:rgba(255,255,255,0.8);
+}
+#friends_all{
+  width:100%;
+  margin-top:20px;
+  margin-bottom:20px;
+  clear:both;
+}
+.fbox{
+  background: rgba(0, 0, 0, 0.22);
+  position:relative;
+  width:100%;height:100%;
+  background: rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.44);
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.44);
+  margin-bottom:20px;
+}
+/*begin 名前が多いと・・・になる*/
+.friends_name{
+  width:100%;
+  height:50px;
+}
+.friends_name p{ 
+  font-weight: bold;
+  text-align:center;
+  font-size: 18px;/*<tuika>*/
+  line-height:50px;
+  text-overflow: ellipsis;   
+  text-overflow: clip; 
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow: ellipsis;    
+  -webkit-text-overflow: ellipsis; 
+  -o-text-overflow: ellipsis; 
+  margin:0;
+
+}
+/*end 名前が多いと・・・になる*/
+.f_info{
+  width:100%;
+}
+.friends-image{
+  padding:20px 20px;
+  text-align:center;
+}
+.friends-image img{
+  width:120px;
+  height:120px;
+  -moz-border-radius: 5px;    /* Firefox */
+  -webkit-border-radius: 5px; /* Safari,Chrome */
+  border-radius: 5px;    
+  border:solid 3px white;
+}
+.friends-category {
+  width:100%;
+  height:100%;
+}
+.friends-category ul li{
+  width:33%;
+  height:30px;
+  line-height:30px;
+  text-align:center;
+  float:left;
+  background:black;
+  opacity:0.8;
+
+}
+.clear{clear:both;}
+/*begin 友達がコメントしてくれた　出会いのきっかけとか(all friend request friend)*/
+p.friend_comment{
+  color:black;
+  font-size: 14px;
+  border: 1px solid #d3d3d3;
+  border-radius: 10px;    /* CSS3草案 */
+  -webkit-border-radius: 10px;  /* Safari,Google Chrome用 */
+  -moz-border-radius: 10px; /* Firefox用 */
+  width:;
+  padding:5px;
+}
+/*end 友達がコメントしてくれた　出会いのきっかけとか(all friend request friend)*/
+/*end friend*/
+/*end lower content*/
+/*begin Question*/
+.ballon{
+  margin:10px 10px 0;
+  padding-top:5px;padding-bottom:5px;
+}
+.ballon-item{
+  min-height:50px;
+  margin:15px 0 0;
+  position:relative;
+}
+
+.ballon-image{
+  position:absolute;
+  top:0;
+  left:0;
+  border-radius:4px;
+  overflow:hidden;
+}
+.is-reverse .ballon-image{
+  left:auto;
+  right:0;
+}
+.ballon-image img{
+  vertical-align:bottom;
+}
+
+
+.ballon-text{
+  padding:0px;
+  width:70%;min-width:180px;word-wrap:break-word;
+  height:100%;
+  border-radius:4px;
+  border:1px solid #757575;
+  margin:0 0 0 70px;
+  position:relative;
+}
+.is-reverse .ballon-text{
+  margin:0 70px 0 0;
+}
+.ballon-text:before,.ballon-text:after{
+  position:absolute;
+  top:15px;
+  content:'';
+}
+.ballon-text:before{
+  left:-20px;
+  border:10px solid transparent;
+  border-right-color: #757575;
+}
+
+
+.is-reverse .ballon-text:before{
+  left:auto;
+  right:-20px;
+  border-right-color:transparent;
+  border-left-color: #757575;
+}
+.ballon-text:after{
+  left:-19px;
+  border:10px solid transparent
+  border-left-color:#fff;
+}
+.is-reverse .ballon-text:after{
+  left:auto;
+  right:-19px;
+    border-right-color:transparent;
+    border-left-color:#fff;
+
+
+}
+.ballon-text p{
+  line-height:16px;
+  font-size:14px;
+}
+/*end Question*/

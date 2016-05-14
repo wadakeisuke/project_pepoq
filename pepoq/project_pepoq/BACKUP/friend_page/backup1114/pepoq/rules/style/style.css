@@ -1,0 +1,36 @@
+*{
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	font-size:14px;
+	background:white;
+	color:#757575;
+}
+#pageall{width:100%;}
+.content{
+	background:;
+	width:90%;
+	height:100%;
+	margin:0 5%;
+}
+.content ul{
+	width:84%;
+	margin:0 8%;
+}
+h1{
+	color:#c0392b;
+}
+h3{
+	color:#e74c3c;
+}
+#id{
+	width:90%;
+	height:100%;
+	margin:0 5%;
+	background:red;
+	border:none;
+}
+#id ul li a{
+	padding:3px;
+}
+a{text-decoration: none}

@@ -1,0 +1,158 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+/*jeneral setting*/
+@charset="utf-8";
+*{padding:0;margin:0;}
+html,body{padding:0;margin:0;-webkit-appearance: none;font-family: 'Noto Sans Japanese', sans-serif;color:#575757;]-webkit-appearance: none;}
+i{color:#34495e;}
+a{text-decoration: none;}
+ul{list-style: none;margin: 0;padding: 0;}
+ul li{list-style-type: none;}
+hr{border-style: dashed;border: 0;height: 0;border-top: 1px solid rgba(0, 0, 0, 0.1);border-bottom: 1px solid rgba(255, 255, 255, 0.3);}
+select{-webkit-appearance: button;appearance: button;width:100%;border:none;background:rgba(255,255,255,0.8);margin-top:5px;margin-bottom:5px;height:30px;}
+textarea{resize:none;border:none;height:70px;margin-left:10%;margin-right:10%;width:80%;-webkit-appearance:none; }
+/*jeneral setting*/
+
+#upper_content{margin-top:50px;width:100%;line-height:1.8;}
+/*bigin edit*/
+.link_edit{width: 100%;height:40px;margin-top:20px;}
+.link_edit span{line-height:40px;}
+.link_edit i{font-size:20px;line-height:40px;}
+/*end edit*/
+
+/*profile関連*/
+i.box_icon{font-size:25px;}
+.box {
+  background-color: rgba(255,255,255,0.7);
+  position:relative;
+  width:90%;
+  margin-left:5%;
+  margin-right:5%;
+  height:100%;
+  margin-bottom:20px;
+  clear:both;
+}
+.data_title{font-size:20px;padding-left:15px;}
+.data{margin-left: 8px;}
+/*begin userinfomation*/
+/*add friend*/
+.add_btn {font-size:20px;line-height:40px;margin:15px;width:40%;margin-left:30%;margin-right:30%;height:40px;background:steelblue;border:none}
+/*begin social icon*/
+.social_icons{height:60px;background:#005;opacity:0.9;margin-bottom:0px;}
+.social_icons ul li{float:left;width:25%;text-align:center;background:white;}
+.social_icons i{height:60px;font-size:30px;line-height:60px;}
+/*end social icon*/
+/*begin thumnail*/
+.non_login_thumbnail_box {
+  background: rgba(0, 0, 0, 0.3);
+  width:100%;
+  height:100%;
+  margin-bottom:20px;
+  padding-top:150px;
+}
+.thumbnail_box {
+  background: rgba(0, 0, 0, 0.3);
+  width:100%;
+  height:100%;
+  margin-bottom:20px;
+}
+#thumbnail{
+  margin-bottom:0px;
+  width:100%;
+  margin-left:0px;margin-right:0px;
+  text-align:center;
+  padding-top:20px;
+  background:#005;
+  background: rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.44);
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.44);
+}
+#thumbnail img{
+  -moz-border-radius: 5px;    /* Firefox */
+  -webkit-border-radius: 5px; /* Safari,Chrome */
+  border-radius: 5px;    
+  border:solid 3px white;
+  width: 120px;
+  height: 120px;
+}
+/*user*/
+.user{width:100%;height:100%;margin-top:0px;}
+/*begin user_name*/
+.user_name{text-align:center;margin-top:0px;font-size:20px;line-height:40px;height:40px;width:100%;background-color:rgba(255,255,255,0.8);}
+.user_name p{margin:0px;padding:0px}
+/*end user_name*/
+/*end user infomation*/
+
+/*begin comment*/
+#comment{padding-top:10px;}
+#comment p{padding:25px;}
+/*end comment*/
+
+/*begin basic_data*/
+#basic_data{padding-top: 10px;}
+#basic_data ul{padding-bottom: 10px;padding-left:25px;
+}
+#basic_data ul li{
+  font-size: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;   
+  text-overflow: clip; 
+  text-overflow: ellipsis;    
+  -webkit-text-overflow: ellipsis; 
+  -o-text-ometa-nav-preverflow: ellipsis; 
+  margin:0;padding:0;
+}
+/*end basic_data*/
+/*begin love_and_likes*/
+#love_and_likes{padding-top:10px;}
+#love_and_likes ul li{padding-left:25px;}
+/*end love_and_likes*/
+/*begin links*/
+#links{padding-top:10px;padding-left:25px;}
+#links ul li{font-size:12px;}
+/*end links*/
+
+/*         U P P E R     C O N T E N T         */
+/*         L O W E R     C O N T E N T         */
+/*start lower content*/
+/*freind*/
+.f_float{float:left;}
+#lower_content{width:100%;}
+#friends_all{width:100%;margin-top:20px;margin-bottom:20px;clear:both;}
+
+.fbox{
+  position:relative;
+  width:90%;
+  margin-left:5%;
+  margin-right:5%;
+  height:100%;
+  background: rgba(255,255,255,0.5);
+  margin-bottom:50px;
+  clear:both;
+}
+/*begin 名前が多いと・・・になる*/
+.friends_name{width:100%;height:50px;}
+.friends_name p{ text-align:center;font-size: 18px;line-height:50px;
+  text-overflow: ellipsis;   
+  text-overflow: clip; 
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow: ellipsis;    
+  -webkit-text-overflow: ellipsis; 
+  -o-text-overflow: ellipsis; 
+  margin:0;
+}
+/*end 名前が多いと・・・になる*/
+.f_info{width:100%;}
+.friends-image{padding:20px 20px;text-align:center;}
+.friends-image img{width:120px;height:120px;
+  -moz-border-radius: 5px;    /* Firefox */
+  -webkit-border-radius: 5px; /* Safari,Chrome */
+  border-radius: 5px;    
+  border:solid 3px white;
+}
+.friends-category {width:100%;height:100%;}
+.friends-category ul li{width:100%;height:30px;line-height:30px;text-align:center;float:left;background:rgba(255,255,255,0.8);}
+.friends-category ul li a{color:#34495e;}
+.clear{clear:both;}
+/*begin 友達がコメントしてくれた　出会いのきっかけとか(all friend request friend)*/
+

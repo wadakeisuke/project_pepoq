@@ -1,0 +1,90 @@
+/*======================================================
+==========4.other commmon===================start=======
+=======================================================*/
+*{
+
+	font-family : YuGothic, '游ゴシック', sans-serif;
+  padding:0;margin:0;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background-color:#34495e;
+}
+textarea{
+	width: 80%;
+	margin:10px 10%;
+	height: 150px;
+    font-size:14px;
+    border: 1px solid #B9C9CE;
+    border-radius:5px;
+}
+button.btn {
+  height: 40px;
+  padding: 0 3px;
+  cursor: pointer;
+  color:white;
+  border:none;
+  -webkit-appearance:none;
+  width:180px;
+  background:#d61e44;
+}
+input.btn {
+  height: 40px;
+  padding: 0 3px;
+  cursor: pointer;
+  color:white;
+  border:none;
+  -webkit-appearance:none;
+  width:60%;
+  margin:0 20%;
+  background:#d61e44;
+}
+/*======================================================
+==========4.other commmon===================end=========
+=======================================================*/
+
+/*======================================================
+==========4.other header===================start========
+=======================================================*
+#header_all{position:fixed;width:100%;}
+#upper_header{background-color:#CC3333;height:30px;line-height:30px;}
+#page_back{float:left;width:10%;text-align:center;}
+#page_title{color: white;text-align:center;float:left;font-size:16px;width:80%;}
+.icon{font-size: 20px;color:black;}
+.back_icon{font-size: 20px;color:black;}
+/*======================================================
+==========4.other header===================start========
+=======================================================*/
+.content{
+	width:100%;
+	height:100%;
+	padding-top:50px;
+	text-align:center;
+}
+.select-box {
+  width: 80%;
+  margin:5px 10% 5px 10%;
+  padding: 10px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 1px solid #999;
+  background: #eee;
+  background: url(../../../img/arrow.png) right 50% no-repeat, -webkit-linear-gradient(top, #fff 0%,#efebe1 100%);
+  background: url(../../../img/arrow.png) right 50% no-repeat, linear-gradient(to bottom, #fff 0%,#efebe1 100%);
+  background-size: 20px, 100%;
+}
+.new_question_format{
+	width:100%;
+}
+.input-item {
+    width: 60%;
+    margin: 20px 20% 30px;
+    height: 30px;
+    background: #ecf0f1;
+    border-radius: 3px;
+    color: #757575;
+    font-size: 12px;
+    line-height: 30px;
+}

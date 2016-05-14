@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <title>thansks you</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/custom.css" />
+		<script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
+		<!--start google analytics-->
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-69530483-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+		<!--end google analytics-->
+    </head>
+    <body>
+        
+        <div class="container demo-1">
+            <div id="slider" class="sl-slider-wrapper">
+
+				<div class="sl-slider">
+				
+					<div class="sl-slide bg-1" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
+						<div class="sl-slide-inner">
+							<div class="deco" data-icon="P"></div>
+							<h2>SNS + Q&A</h2>
+							<blockquote><p>「答え」が一番近くにある新感覚ソーシャルネットワークpepoQ</p></blockquote>
+						</div>
+					</div>
+					
+					<div class="sl-slide bg-2" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
+						<div class="sl-slide-inner">
+							<div class="deco" data-icon="E"></div>
+							<h2>Personality</h2>
+							<blockquote><p>気になる人に匿名で質問してみよう。意外な一面を知ることができるかも…</p></blockquote>
+						</div>
+					</div>
+					
+					<div class="sl-slide bg-3" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
+						<div class="sl-slide-inner">
+							<div class="deco" data-icon="P"></div>
+							<h2>Interest</h2>
+							<blockquote><p>興味・関心のあることを、詳しい人に質問してみよう。あなたがした質問は自動で彼らに届きます！</p></blockquote>
+						</div>
+					</div>
+					
+					<div class="sl-slide bg-4" data-orientation="vertical" data-slice1-rotation="-5" data-slice2-rotation="25" data-slice1-scale="2" data-slice2-scale="1">
+						<div class="sl-slide-inner">
+							<div class="deco" data-icon="O"></div>
+							<h2>Know yourself</h2>
+							<blockquote><p>pepoQは定期的にあなたに質問をします。自分では気がつかない長所・短所に気づくことができる</p></blockquote>
+						</div>
+					</div>
+					
+					<div class="sl-slide bg-5" data-orientation="horizontal" data-slice1-rotation="-5" data-slice2-rotation="10" data-slice1-scale="2" data-slice2-scale="1">
+						<div class="sl-slide-inner">
+							<div class="deco" data-icon="Q"></div>
+							<h2><a href="../../../mypage/timeline/index.php">LET'S START</a></h2>
+							<blockquote><p>Enjoy!</p></blockquote>
+						</div>
+					</div>
+				</div><!-- /sl-slider -->
+				
+				<nav id="nav-arrows" class="nav-arrows">
+					<span class="nav-arrow-prev">Previous</span>
+					<span class="nav-arrow-next">Next</span>
+				</nav>
+
+				<nav id="nav-dots" class="nav-dots">
+					<span class="nav-dot-current"></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</nav>
+
+			</div><!-- /slider-wrapper -->
+
+        </div>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.ba-cond.min.js"></script>
+		<script type="text/javascript" src="js/jquery.slitslider.js"></script>
+		<script type="text/javascript">	
+			$(function() {
+			
+				var Page = (function() {
+
+					var $navArrows = $( '#nav-arrows' ),
+						$nav = $( '#nav-dots > span' ),
+						slitslider = $( '#slider' ).slitslider( {
+							onBeforeChange : function( slide, pos ) {
+
+								$nav.removeClass( 'nav-dot-current' );
+								$nav.eq( pos ).addClass( 'nav-dot-current' );
+
+							}
+						} ),
+
+						init = function() {
+
+							initEvents();
+							
+						},
+						initEvents = function() {
+
+							// add navigation events
+							$navArrows.children( ':last' ).on( 'click', function() {
+
+								slitslider.next();
+								return false;
+
+							} );
+
+							$navArrows.children( ':first' ).on( 'click', function() {
+								
+								slitslider.previous();
+								return false;
+
+							} );
+
+							$nav.each( function( i ) {
+							
+								$( this ).on( 'click', function( event ) {
+									
+									var $dot = $( this );
+									
+									if( !slitslider.isActive() ) {
+
+										$nav.removeClass( 'nav-dot-current' );
+										$dot.addClass( 'nav-dot-current' );
+									
+									}
+									
+									slitslider.jump( i + 1 );
+									return false;
+								
+								} );
+								
+							} );
+
+						};
+
+						return { init : init };
+
+				})();
+
+				Page.init();
+			});
+		</script>
+		<script src="js/demoad.js"></script>
+	</body>
+</html>

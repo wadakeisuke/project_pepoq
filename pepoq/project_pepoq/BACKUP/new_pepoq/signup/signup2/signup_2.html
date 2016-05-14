@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>sign up</title>
+  <meta charset="utf-8">
+  <meta content="width=device-width" name="viewport">
+
+  <link href="../css/red.css?v=1.0.2" rel="stylesheet">
+  <link href="./css/style.css" rel="stylesheet">
+
+  <script src="./js/jquery.js"></script>
+  <script src="./js/icheck.js?v=1.0.2"></script>
+<style>
+*{margin:0;padding:0;}
+ul{list-style-type:none;}
+.skin{
+  width:60%;
+  margin:0 20%;
+  height:100%;
+}
+.list{
+  text-align:center;
+}
+.list li{
+  height:60px;
+  width:100%;
+  margin:10px 0;
+}
+
+/* iCheck plugin Line skin, red
+----------------------------------- */
+.icheckbox_line-red,
+.iradio_line-red {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 5px 15px 5px 38px;
+    font-size: 13px;
+    line-height: 40px;
+    color: #fff;
+    background: #e56c69;
+    border: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+    height:40px;
+}
+
+    .icheckbox_line-red .icheck_line-icon,
+    .iradio_line-red .icheck_line-icon {
+        position: absolute;
+        top: 50%;
+        left: 13px;
+        width: 13px;
+        height: 11px;
+        margin: -5px 0 0 0;
+        padding: 0;
+        overflow: hidden;
+        background: url(css/line.png) no-repeat;
+        border: none;
+    }
+
+    .icheckbox_line-red.hover,
+    .icheckbox_line-red.checked.hover,
+    .iradio_line-red.hover {
+        background: #E98582;
+    }
+    .icheckbox_line-red.checked,
+    .iradio_line-red.checked {
+        background: #e56c69;
+    }
+    .icheckbox_line-red.checked .icheck_line-icon,
+    .iradio_line-red.checked .icheck_line-icon {
+        background-position: -15px 0;
+    }
+    .icheckbox_line-red.disabled,
+    .iradio_line-red.disabled {
+        background: #F7D3D2;
+        cursor: default;
+    }
+    .icheckbox_line-red.disabled .icheck_line-icon,
+    .iradio_line-red.disabled .icheck_line-icon {
+        background-position: -30px 0;
+    }
+    .icheckbox_line-red.checked.disabled,
+    .iradio_line-red.checked.disabled {
+        background: #F7D3D2;
+    }
+    .icheckbox_line-red.checked.disabled .icheck_line-icon,
+    .iradio_line-red.checked.disabled .icheck_line-icon {
+        background-position: -45px 0;
+    }
+
+/* HiDPI support */
+@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi), (min-resolution: 1.25dppx) {
+    .icheckbox_line-red .icheck_line-icon,
+    .iradio_line-red .icheck_line-icon {
+        background-image: url(css/line@2x.png);
+        -webkit-background-size: 60px 13px;
+        background-size: 60px 13px;
+    }
+}
+</style>
+</head>
+<body>
+<body>
+<!--begin Pageall-->
+<div id="pageall">
+ <!--begin section-->
+ <section>
+  <!--begin header-->
+  <header>
+    <p>興味があるものにチェックしてください</p>
+  </header>
+  <!--end header-->
+    <!--begin content-->
+    <div class="signup2_content">
+      <!--begin form-->
+      <form method="post" action="../../php/first_join_group.php">
+        <div class="skin skin-line">
+          <div class="skin-section">
+            <ul class="list">
+              <li>
+                <input tabindex="1" type="checkbox" id="line-checkbox-1" name="diary">
+                <label for="line-checkbox-1">日記</label>
+              </li>
+              <li>
+                <input tabindex="2" type="checkbox" id="line-checkbox-2" name="tv_game">
+                <label for="line-checkbox-2">ゲーム</label>
+              </li>
+              <li>
+                <input tabindex="3" type="checkbox" id="line-checkbox-3" name="entartainment">
+                <label for="line-checkbox-2">アイドル・芸能</label>
+              </li>
+              <li>
+                <input tabindex="4" type="checkbox" id="line-checkbox-4" name="chile_care">
+                <label for="line-checkbox-2">育児</label>
+              </li>
+              <li>
+                <input tabindex="5" type="checkbox" id="line-checkbox-5" name="stock">
+                <label for="line-checkbox-2">株式・投資・マネー</label>
+              </li>
+              <li>
+                <input tabindex="6" type="checkbox" id="line-checkbox-6" name="sports">
+                <label for="line-checkbox-2">スポーツ</label>
+              </li>
+              <li>
+                <input tabindex="7" type="checkbox" id="line-checkbox-7" name="medicine">
+                <label for="line-checkbox-2">医学</label>
+              </li>
+              <li>
+                <input tabindex="8" type="checkbox" id="line-checkbox-8" name="current_news">
+                <label for="line-checkbox-2">時事</label>
+              </li>
+              <li>
+                <input tabindex="9" type="checkbox" id="line-checkbox-9" name="political_economy">
+                <label for="line-checkbox-2">政治・経済</label>
+              </li>
+              <li>
+                <input tabindex="10" type="checkbox" id="line-checkbox-10" name="anime">
+                <label for="line-checkbox-2">アニメ・コミック</label>
+              </li>
+              <li>
+                <input tabindex="11" type="checkbox" id="line-checkbox-11" name="car">
+                <label for="line-checkbox-2">車・バイク</label>
+              </li>
+
+              <li>
+                <input tabindex="12" type="checkbox" id="line-checkbox-12" name="work">
+                <label for="line-checkbox-2">就職・お仕事</label>
+              </li>
+              <li>
+                <input tabindex="13" type="checkbox" id="line-checkbox-13" name="pet">
+                <label for="line-checkbox-2">ペット</label>
+              </li>
+              <li>
+                <input tabindex="14" type="checkbox" id="line-checkbox-14" name="travel">
+                <label for="line-checkbox-2">旅行</label>
+              </li>
+              <li>
+                <input tabindex="15" type="checkbox" id="line-checkbox-15" name="finance">
+                <label for="line-checkbox-2">ファイナンス</label>
+              </li>
+              <li>
+                <input tabindex="16" type="checkbox" id="line-checkbox-16" name="study">
+                <label for="line-checkbox-2">学問・文学・芸術</label>
+              </li>
+              <li>
+                <input tabindex="17" type="checkbox" id="line-checkbox-17" name="online_game">
+                <label for="line-checkbox-2">オンラインゲーム</label>
+              </li>
+              <li>
+                <input tabindex="18" type="checkbox" id="line-checkbox-18" name="fashion">
+                <label for="line-checkbox-2">ファッション・ブランド</label>
+              </li>
+              <li>
+                <input tabindex="19" type="checkbox" id="line-checkbox-19" name="affiliate">
+                <label for="line-checkbox-2">アフィリエイト</label>
+              </li>
+              <li>
+                <input tabindex="20" type="checkbox" id="line-checkbox-20" name="school">
+                <label for="line-checkbox-2">学校・教育</label>
+              </li><li>
+                <input tabindex="21" type="checkbox" id="line-checkbox-21" name="gambling">
+                <label for="line-checkbox-2">ギャンブル</label>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="c_box">
+            <input class="submit_2btn"name="signup2" type="submit" value="次へ">
+        </div>
+      </form>
+      <!--end form-->
+    </div>
+    <!--end content-->
+  </section>
+  <!--end section-->
+</div>
+<!-- End Pageall-->
+<script>
+$(document).ready(function(){
+  $('.skin-line input').each(function(){
+    var self = $(this),
+      label = self.next(),
+      label_text = label.text();
+
+    label.remove();
+    self.iCheck({
+      checkboxClass: 'icheckbox_line-red',
+      radioClass: 'iradio_line-red',
+      insert: '<div class="icheck_line-icon"></div>' + label_text
+    });
+  });
+});
+</script>
+     
+</body>
+</html>

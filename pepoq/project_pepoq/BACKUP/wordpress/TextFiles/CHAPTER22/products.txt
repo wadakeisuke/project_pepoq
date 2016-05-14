@@ -1,0 +1,135 @@
+<p class="alignright"><img src="[image_path]" alt="" title="" width="220" height="136" /></p>
+<p class="large serif">快適空間をトータルプロデュース。</p>
+
+当社はインテリアのトータルコーディネートを、サービスとしてご提供させて頂いております。快適空間をプロデュースする為に、様々な場所で使える家具をデザイン、製造しています。
+
+以下の Webカタログから、当社の全ての家具をご覧頂けます。
+
+<div id="tabs">
+     <ul class="clearfix">
+          <li class="room-type"><a href="#tabs-1">お部屋のタイプで探す</a></li>
+          <li class="item"><a href="#tabs-2">家具の種類で探す</a></li>
+     </ul>
+
+<div id="tabs-1">
+
+お部屋のタイプ別に、製品をお探しいただけます。
+
+<div class="box-half left">
+<div class="hgroup">
+<h4 class="living">リビングルーム</h4>
+<h5>Livingroom</h5>
+</div>
+<a href="[home_url]/roomtype/living/"><img src="[image_path]" alt="" title="" width="95" height="62" /></a>
+</div>
+
+<div class="box-half right">
+<div class="hgroup">
+<h4 class="dining">ダイニング</h4>
+<h5>dining</h5>
+</div>
+<a href="[home_url]/roomtype/dining/"><img src="[image_path]" alt="" title="" width="95" height="62" /></a>
+</div>
+
+<div class="box-half left">
+<div class="hgroup">
+<h4 class="bedroom">ベッドルーム</h4>
+<h5>bedroom</h5>
+</div>
+<a href="[home_url]/roomtype/bedroom/"><img src="[image_path]" alt="" title="" width="95" height="62" /></a>
+</div>
+
+<div class="box-half right">
+<div class="hgroup">
+<h4 class="bathroom">バスルーム</h4>
+<h5>bathroom</h5>
+</div>
+<a href="[home_url]/roomtype/bathroom/"><img src="[image_path]" alt="" title="" width="95" height="62" /></a>
+</div>
+
+<div class="box-half left">
+<div class="hgroup">
+<h4 class="japanese">和室</h4>
+<h5>japanese</h5>
+</div>
+<a href="[home_url]/roomtype/japanese/"><img src="[image_path]" alt="" title="" width="95" height="62" /></a>
+</div>
+
+<div class="box-half right">
+<div class="hgroup">
+<h4 class="office">オフィス</h4>
+<h5>office</h5>
+</div>
+<a href="[home_url]/roomtype/office/"><img src="[image_path]" alt="" title="" width="95" height="62" /></a>
+</div>
+
+<div class="box-half">
+<div class="hgroup">
+<h4 class="others">その他</h4>
+<h5>others</h5>
+</div>
+<a href="[home_url]/roomtype/others/"><img src="[image_path]" alt="" title="" width="95" height="62" /></a>
+ルームアクセサリー
+</div>
+</div>
+
+
+<div id="tabs-2">
+家具の種類ごとに製品をお探しいただけます。
+<div class="box-half left">
+<div class="hgroup">
+<h4 class="sofa">ソファー</h4>
+<h5>sofa</h5>
+</div>
+<a href="[home_url]/item/sofa/"><img src="[image_path]" alt="" title="" width="95" height="62" /></a>
+</div>
+
+<div class="box-half right">
+<div class="hgroup">
+<h4 class="chair">チェア</h4>
+<h5>chair</h5>
+</div>
+<a href="[home_url]/item/chair/"><img src="[image_path]" alt="" title="" width="95" height="62" /></a>
+</div>
+
+<div class="box-half left">
+<div class="hgroup">
+<h4 class="table">テーブル</h4>
+<h5>table</h5>
+</div>
+<a href="[home_url]/item/table/"><img src="[image_path]" alt="" title="" width="95" height="65" /></a>
+</div>
+
+<div class="box-half right">
+<div class="hgroup">
+<h4 class="desk">デスク</h4>
+<h5>desk</h5>
+</div>
+<a href="[home_url]/item/desk/"><img src="[image_path]" alt="" title="" width="95" height="62" /></a>
+</div>
+
+<div class="box-half left">
+<div class="hgroup">
+<h4 class="bed">ベッド</h4>
+<h5>bed</h5>
+</div>
+<a href="[home_url]/item/bed/"><img src="[image_path]" alt="" title="" width="95" height="62" /></a>
+</div>
+
+<div class="box-half right">
+<div class="hgroup">
+<h4 class="light">照明</h4>
+<h5>light</h5>
+</div>
+<a href="[home_url]/item/light/"><img src="[image_path]" alt="" title="" width="95" height="62" /></a>
+</div>
+
+<div class="box-half">
+<div class="hgroup">
+<h4 class="chest">チェスト</h4>
+<h5>CHEST</h5>
+</div>
+<a href="[home_url]/item/chest/"><img src="[image_path]" alt="" title="" width="95" height="65" /></a>
+</div>
+</div>
+</div>

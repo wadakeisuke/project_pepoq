@@ -1,0 +1,138 @@
+/*Jeneral settings*/
+*{font-size:14px;}
+body{overflow: scroll;}
+a #cancel{color: steelblue;}
+.edit_format p i{font-size:40px;padding-top:0px;}
+.edit_format input[type=text],textarea, select { outline: none;}
+.hidden{display:none;}
+.clear{clear:both;}
+.modal_close{ position: absolute;top:25px;right:30px;display:block;width:20px;height: 20px; z-index:2;background-repeat: no-repeat;background-image:url("../../img/batu.gif");}
+.fr_tab_name {
+   width:60%;
+   height:30px;
+   margin-right:20%;
+   margin-left:20%;
+   padding:0 3px;
+   cursor:pointer;
+   background:rgba(255,255,255,0.5);
+   border:none;
+   -webkit-appearance: none;
+   color:#34495e;
+}
+#lean_overlay{position:fixed;z-index: 1000;top:0px;left:0px;height:100%;width:100%;background:#005;display: none;}
+/*input*/
+.popup_window_li input[type="text"]{-webkit-appearance: none;border:none;margin-bottom:15px;}
+.basic_popup_window_li input[type="text"]{-webkit-appearance: none;border:none;margin-bottom:15px;}
+.fr_input{border:none;-webkit-appearance:none;height:25px;width:40%;}
+/*input*/
+/*textarea*/
+.popup_window_li textarea{width:70%;height:35px;}
+.fr_textarea{border:none;height:70px;margin:8%;margin:8%;width:84%;-webkit-appearance:none;}
+/*textarea*/
+/*select*/
+.basic_popup_window_li select{-webkit-appearance: none;border:none;background:;margin-bottom:15px;height:30px;}
+.fr_rel_box select{height:30px;width:40%;}
+/*select*/
+/*button*/
+.btn_submit{position:absolute;top:250px;height:20px;width:80%;margin:0 10%;border:none;}
+.goodby button{-webkit-appearance: none;border:none;margin-bottom:15px;height:30px;}
+.edit_button{background:#34495e;color:white;border:none;-webkit-appearance:none;width:20%;height:30px;margin-top:20px;margin-left:40%;margin-right:40%;}
+.btn {font-size:14px;line-height:40px;margin:20% 10% 0% 10%;width:60%;height:40px;background:#34495e;color:white;border:none;-webkit-appearance:none;}
+.btn i{color:white;}
+/*button*/
+
+/*Jeneral settings*/
+
+/*共通*/
+#popup_delete_account{width: 100%;height:100%;text-align:center;padding:10px;display:none;background-color: rgba(255, 255, 255, 0.9);}
+.ceg_popup_window{position:relative;width:100%;height:100%;min-width:100%;min-height:100%;text-align:center;padding:0px 0 20px 0;margin:0px;display:none;background-color: rgba(255, 255, 255, 0.9);}
+/*共通*/
+
+/*bigin M E N U */
+/*menu　comment*/
+.menu_comment{bottom:50px;background-color:green;position:absolute;width:100%;height:50px;padding:0;margin:0;text-align:center;}
+.menu_comment li{width:25%;height:50px;font-size:30px;line-height:50px;text-align:center;}
+.menu_comment li a{margin-left:45%;}
+/*end menu*/
+.menu_edit{bottom:50px;background-color:green;position:absolute;width:100%;height:50px;padding:0;margin:0;text-align:center;}
+.menu_edit li{width:25%;height:50px;font-size:30px;line-height:50px;text-align:center;}
+.menu_edit li a{margin-left:45%;}
+/*menu　stanbdby*/
+.menu_standby{bottom:50px;background-color:green;position:absolute;width:100%;height:50px;padding:0;margin:0;text-align:center;}
+.menu_standby li{width:20%;height:50px;font-size:30px;line-height:50px;text-align:center;}
+.menu_standby li a{margin-left:45%;}
+/*end menu*/
+/*end M E N U */
+
+/*bigin EDIT*/
+.edit_item{position:absolute;top:50px;width:80%;height:40%;margin-left:10%;margin-right:10%;margin-top:20px;clear:both;}
+/*end EDIT*/
+
+/*bigin GOODBY*/
+.bye_box{position:absolute;top:100px;width:100%;text-align:center;display:block;}
+.gb_alert{width:80%;margin-left:10%;margin-right:10%;height:100px;padding:60px 0 20px 0;}
+.gb_alert p{color:#e74c3c;}
+.g_form{width:50%;}
+.cancel_form{width:50%}
+.g_f{float:left;}
+.g_f_clear{clear:both;}
+/*end GOODBY*/
+
+/*STAND BY*/
+.fr_tab_box{width:100%;height:100%;position:relative;}
+.fr_rel_box{position:absolute;top:50px;width:80%;height:30px;margin-left:10%;margin-right:10%;}
+.f_sel_box{margin-top:30px;width:86%;height:30px;margin-left:7%;margin-right:7%;}
+/*STAND BY*/
+
+/*COMMENT*/
+.more_rel_format{text-align:center;width:100%;top:50px;position:absolute;color:#bdc3c7;}
+.comment_type_format{color:#bdc3c7;}
+.comment_format{background:#ecf0f1;width:80%;margin-left:10%;margin-right:10%;height:100%;min-height:100px;}
+/*COMMENT*/
+
+/*bigin Question*/
+#edit_question{width: 100%;height:100%;text-align: center;padding:50px 0 20px 0;display:none;background-color: rgba(255, 255, 255, 0.9);}
+#edit_question textarea{width:90%;height:50px;margin-left:5%;margin-right:5%;margin-top:20px;}
+.question_text{height:100%;width:80%;margin-left:10%;margin-right:10%;}
+.question_form{width:100%;height:20%;}
+.add_btnq {font-size:14px;line-height:40px;margin:10% 10% 0% 10%;width:30%;height:40px;background:#34495e;color:white;border:none;-webkit-appearance:none;}
+.add_btnq i{color:white;}
+/*end Qestion*/
+
+/*bigin Thumbnail*/
+#edit_img{width: 100%;height:100%;text-align: center;padding:60px 0 20px 0;display:none;background-color: rgba(255, 255, 255, 0.9);}
+#edit_name_and_links{width: 100%;height:100%;text-align: center;padding:60px 0 20px 0;width: 100%;display:none;background-color: rgba(255, 255, 255, 0.9);}
+#edit_name input{width:90%;}
+/*end Thumbnail*/
+
+/*bigin comment*/
+#edit_comment{width: 100%;height:100%;text-align: center;padding:60px 0 20px 0;width: 100%;   display:none;background-color: rgba(255, 255, 255, 0.9);}
+#edit_comment textarea{border:none;height:150px;margin-left:10%;margin-right:10%;width:80%;-webkit-appearance:none; }
+/*end comment*/
+
+/*bigin Basicdata*/
+#edit_basicdata{padding:60px 0 20px 0px;width: 100%;height:100%;text-align: center;display:none;background-color: rgba(255, 255, 255, 0.9);}
+#edit_basicdata select{width:70px;}
+/*end Basicdata*/
+
+/*bigin Love and Likes*/
+#edit_love_and_likes{padding:60px 0 20px 10px;width: 100%;height:100%;text-align: center;display:none;background-color: rgba(255, 255, 255, 0.9);}
+#edit_love_and_likes textarea{border:none;height:70px;margin-left:10%;margin-right:10%;width:80%;-webkit-appearance:none; }
+/*end Love and Likes*/
+
+/*bigin links*/
+#edit_links{padding:60px 0 20px 10px;width: 100%;height:100%;text-align: center;display:none;background-color: rgba(255, 255, 255, 0.9);}
+#edit_links input{width:90%;}
+/*end links*/
+
+/*html内のcss削除*/
+.edit_format{text-align:center;clear:both;}
+.format_box_pad{background-color:;padding:10px;}
+.details{text-align: center;}
+.fbox{clear:both;}
+.comment_text_box{
+  text-align:center;width:100%;bottom:160px;position:absolute;
+}
+.tab_ceg_format{
+  position:relative;height:100%;
+}
